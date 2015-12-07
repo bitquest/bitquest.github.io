@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 07 Dec 2015 17:45:22 -0300</pubDate>
+    <lastBuildDate>Mon, 07 Dec 2015 17:45:22 -0300</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>BitQuest 2.0 is coming soon</title>
+        <description>&lt;p&gt;Hi fellow BitQuesters!!&lt;/p&gt;
+
+&lt;p&gt;We’ve been quiet for a period of a few months, and we are deeply sorry for all of you guys who felt abandoned, but the time has come to re structure this project and find the best way to achieve the great ideas we have for this server.&lt;/p&gt;
+
+&lt;p&gt;For the past 2 months we’ve been writing the server code from scratch, which was a arduous task to implement a new design. We all know that BitQuest 1.0 had a lot of bugs and problems with Bitcoin and most of the problems originate due to the very fact that the Minecraft engine is not designed to handle any type of in-game currency.&lt;/p&gt;
+
+&lt;p&gt;During the past year we have come up with a strategy to make the server a lot more stable and easier to mantain, however, this new design requires completely different technology and the need to rewrite most of the code.&lt;/p&gt;
+
+&lt;p&gt;We also learnt that there is a lot of people who want to support the project via donations, code contributions and lending free servers and we think the best vehicle to allow contibutions, transparency and resillience to the project is to make it open source. That way the contributions will help not only make BitQuest the best Minecraft server in the world, also allowing other people to make their own BitQuests.&lt;/p&gt;
+
+&lt;p&gt;From now on, all the game code resides on &lt;a href=&quot;http://github.com/bitquest/bitquest&quot;&gt;GitHub&lt;/a&gt;, so we can all keep track of the development process and (more importantly) get involved.&lt;/p&gt;
+
+&lt;p&gt;We believe Bitcoin is gonna be the official currency of virtual worlds, hands down. And while still in its infancy, this is the time to experiment integrating this new technology and keeping BitQuest closed is not a cool way to contribute to the Bitcoin community.&lt;/p&gt;
+
+&lt;p&gt;Personally, My main task will be to help new developers get started by documenting the code and tools, creating spaces for discussion of the future of the project and keeping a transparent, organized, democratic organization.&lt;/p&gt;
+
+&lt;p&gt;Also, my company (&lt;a href=&quot;http://mego.cl&quot;&gt;MEGO&lt;/a&gt;) will be sponsoring this project with production, testing and development servers.&lt;/p&gt;
+
+&lt;p&gt;I’m very excited for the future of this project, but it will come faster and greater with a bigger team. If you want to join the moderators or dev team, please drop me a line at cristian@mego.cl&lt;/p&gt;
+
+&lt;p&gt;Thanks for playing!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Dec 2015 17:17:00 -0300</pubDate>
+        <link>http://yourdomain.com/2015/12/07/starting-bitquest-2-0.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/12/07/starting-bitquest-2-0.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
