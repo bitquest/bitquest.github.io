@@ -257,6 +257,22 @@ pre {
 .social-media-list {
   list-style: none;
   margin-left: 0; }
+  .contact-list .mdi,
+  .social-media-list .mdi {
+    font-size: 32px;
+    color: white; }
+  .contact-list span,
+  .social-media-list span {
+    vertical-align: middle;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    color: white; }
+
+.social-media-list.hr li {
+  margin-right: 7px;
+  display: inline-block;
+  vertical-align: top; }
 
 .footer-col-wrapper {
   font-size: 15px;
