@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
+	
+	<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,53 +9,72 @@
   <title>Your awesome title</title>
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
-
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://yourdomain.com/">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
 </head>
 
 
-  <body>
-
-    <header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="/">Your awesome title</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-          <a class="page-link" href="/about/">About</a>
-          
-        
-          
-        
-          
-        
-          
-        
-      </div>
-    </nav>
-
-  </div>
-
+	<body>
+		
+		<header class="site-header">
+   <div class="container">
+      <nav class="navbar navbar-dark bg-inverse">
+         <!-- <a href="#" class="menu-icon">
+            <svg viewBox="0 0 18 15">
+               <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+               <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+               <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+         </a> -->
+         <div class="row">
+            <div class="col-md-5">
+               <a class="navbar-brand" href="/">
+                  <img src="/images/bitquest-logo.png" alt="Your awesome title">
+               </a>
+            </div>
+            <div class="col-md-7">
+               <h1 class="navbar-txt">Welcome to the <strong>Minecraft</strong> Server with a <strong>Bitcoin</strong> denominated monetary system.</h1>
+            </div>
+         </div>
+         <ul class="nav navbar-nav pull-sm-left">
+            
+               
+                  <li class="nav-item">
+                     <a class="nav-link" href="/about/">About</a>
+                  </li>
+               
+            
+               
+            
+               
+            
+               
+            
+            <li class="nav-item">
+               <a href="#" class="nav-link">Github</a>
+            </li>
+            <li class="nav-item">
+               <a href="#" class="nav-link">Wiki</a>
+            </li>
+         </ul>
+         <div class="navbar-nav pull-sm-right">
+            right
+         </div>
+         <!-- <form class="form-inline pull-xs-right">
+            <input class="form-control" type="text" placeholder="Search">
+            <button class="btn btn-success-outline" type="submit">Search</button>
+         </form> -->
+      </nav>
+   </div>
 </header>
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
+		
+		<section class="ground">
+      <div class="container">
+        <div class="content col-md-7 col-sm-6">
+          <div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
@@ -75,10 +94,14 @@
 
 </div>
 
-      </div>
-    </div>
+        </div>
+        <div class="sidebar col-md-5 col-sm-6">
+          <div class="well">sidebar</div>
+        </div>
+      </div>  
+    </section>
 
-    <footer class="site-footer">
+		<footer class="site-footer">
 
   <div class="wrapper">
 
@@ -122,7 +145,10 @@
 
 </footer>
 
-
-  </body>
+	
+		<!-- JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.csss"></script>
+	</body>
 
 </html>

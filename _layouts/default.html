@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
+	
+	{% include head.html %}
 
-  {% include head.html %}
+	<body>
+		
+		{% include header.html %}
+		
+		<section class="ground">
+      <div class="container">
+        <div class="content col-md-7 col-sm-6">
+          {{ content }}
+        </div>
+        <div class="sidebar col-md-5 col-sm-6">
+          <div class="well">sidebar</div>
+        </div>
+      </div>  
+    </section>
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
+		{% include footer.html %}
+	
+		<!-- JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.csss"></script>
+	</body>
 
 </html>
