@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "BitQuest 2.0 is coming soon"
 date:   2015-12-07 17:17:00 -0300
 author: "explodi"
