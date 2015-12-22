@@ -378,7 +378,8 @@ pre {
     background: rgba(0, 0, 0, 0.8);
     padding: 3px 8px; }
     .newsletter-box form .form-group {
-      width: 60%; }
+      width: 60%;
+      margin-bottom: 0; }
     .newsletter-box form .form-control {
       border: none;
       box-shadow: none;
@@ -391,6 +392,8 @@ pre {
   background: #FFBA2B;
   border: none;
   border-radius: 0; }
+  .btn-primary:hover {
+    background: #ffd378; }
 
 /**
  * Syntax highlighting styles

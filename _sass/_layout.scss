@@ -326,6 +326,7 @@
         padding:3px 8px;
         .form-group {
             width:60%;
+            margin-bottom:0;
         }
         .form-control {
             border:none;
@@ -343,4 +344,7 @@
     background: $brand-color;
     border:none;
     border-radius:0;
+    &:hover {
+        background: lighten($brand-color, 15%);
+    }
 }
