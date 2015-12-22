@@ -1,5 +1,9 @@
 
-
+.container {
+    @include media-query($bs-custom) {
+        max-width:100%;
+    }
+}
 // GROUND SECTION
 .ground {
     background:url('/images/earth-bg.png');
@@ -24,10 +28,28 @@
         display:flex;
         justify-content:space-between;
         align-items:center;
+        @include media-query($bs-custom) {
+            flex-wrap: wrap;
+            text-align:center !important;
+        }
         &.top {
             padding:3rem 0;
         }
         > div {
+            width:100%;
+        }
+    }
+    .navbar-brand {
+        width:100%;
+        text-align:center;
+        img {
+            display: inline-block;
+        }
+        @include media-query($bs-custom) {
+            img {
+                width:100%;
+                max-width:600px;
+            }
         }
     }
     .navbar-txt {
@@ -40,12 +62,25 @@
                 color:$brand-color;
             }
         }
+        @include media-query($bs-custom) {
+            text-align:center;
+            .txt {
+                font-size:1.35rem;
+            }
+        }
     }
     .navbar-nav {
         margin:0;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        text-align:center;
         .nav-item {
+            flex:0 1 auto;
+            width:200px;
             .nav-link {
-                padding:.5rem 2rem;
+                width:100%;
+                padding:.5rem;
                 background:rgba(black, .7);
                 color:white;
                 text-transform:uppercase;
@@ -53,6 +88,18 @@
                     background:rgba($brand-color, .8);
                 }
             }
+        }
+        @include media-query($bs-custom) {
+            margin: 0 auto;
+            .nav-item {
+                font-size:14px;
+            }
+        }
+    }
+    .newsletter-box {
+        @include media-query($bs-custom) {
+            width:70% !important;
+            margin:1rem auto;
         }
     }
 }

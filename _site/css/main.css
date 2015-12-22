@@ -146,6 +146,10 @@ pre {
   .icon > svg path {
     fill: #BBB; }
 
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 100%; } }
+
 .ground {
   background: url("/images/earth-bg.png");
   background-repeat: repeat-x;
@@ -167,8 +171,23 @@ pre {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+    @media screen and (max-width: 991px) {
+      .site-header .row {
+        flex-wrap: wrap;
+        text-align: center !important; } }
     .site-header .row.top {
       padding: 3rem 0; }
+    .site-header .row > div {
+      width: 100%; }
+  .site-header .navbar-brand {
+    width: 100%;
+    text-align: center; }
+    .site-header .navbar-brand img {
+      display: inline-block; }
+    @media screen and (max-width: 991px) {
+      .site-header .navbar-brand img {
+        width: 100%;
+        max-width: 600px; } }
   .site-header .navbar-txt {
     color: #fff;
     text-align: right; }
@@ -177,15 +196,37 @@ pre {
       margin: 0; }
       .site-header .navbar-txt .txt strong {
         color: #FFBA2B; }
+    @media screen and (max-width: 991px) {
+      .site-header .navbar-txt {
+        text-align: center; }
+        .site-header .navbar-txt .txt {
+          font-size: 1.35rem; } }
   .site-header .navbar-nav {
-    margin: 0; }
-    .site-header .navbar-nav .nav-item .nav-link {
-      padding: .5rem 2rem;
-      background: rgba(0, 0, 0, 0.7);
-      color: white;
-      text-transform: uppercase; }
-      .site-header .navbar-nav .nav-item .nav-link.active, .site-header .navbar-nav .nav-item .nav-link:hover {
-        background: rgba(255, 186, 43, 0.8); }
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; }
+    .site-header .navbar-nav .nav-item {
+      flex: 0 1 auto;
+      width: 200px; }
+      .site-header .navbar-nav .nav-item .nav-link {
+        width: 100%;
+        padding: .5rem;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-transform: uppercase; }
+        .site-header .navbar-nav .nav-item .nav-link.active, .site-header .navbar-nav .nav-item .nav-link:hover {
+          background: rgba(255, 186, 43, 0.8); }
+    @media screen and (max-width: 991px) {
+      .site-header .navbar-nav {
+        margin: 0 auto; }
+        .site-header .navbar-nav .nav-item {
+          font-size: 14px; } }
+  @media screen and (max-width: 991px) {
+    .site-header .newsletter-box {
+      width: 70% !important;
+      margin: 1rem auto; } }
 
 .site-title {
   font-size: 26px;
