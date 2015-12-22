@@ -4,14 +4,14 @@
 .ground {
     background:url('/images/earth-bg.png');
     background-repeat:repeat-x;
-    padding-top:3rem;
+    padding:3rem 0 2rem;
 }
 /**
  * Site header
  */
 .site-header {
     font-family: $headings-font-family;
-    background:url('/images/frame.png'), url('/images/static.png');
+    background:url('/images/frame.png'), url('/images/bitquest-map.jpg');
     background-size:cover;
     background-position:center;
     // Positioning context for the mobile navigation icon
@@ -146,6 +146,7 @@
  */
 .site-footer {
     padding: $spacing-unit 0;
+    border-top:2px solid rgba(white, .2);
 }
 
 .footer-heading {

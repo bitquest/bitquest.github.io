@@ -149,14 +149,14 @@ pre {
 .ground {
   background: url("/images/earth-bg.png");
   background-repeat: repeat-x;
-  padding-top: 3rem; }
+  padding: 3rem 0 2rem; }
 
 /**
  * Site header
  */
 .site-header {
   font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: url("/images/frame.png"), url("/images/static.png");
+  background: url("/images/frame.png"), url("/images/bitquest-map.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -246,7 +246,8 @@ pre {
  * Site footer
  */
 .site-footer {
-  padding: 30px 0; }
+  padding: 30px 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.2); }
 
 .footer-heading {
   font-size: 18px;
