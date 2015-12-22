@@ -1,6 +1,6 @@
 <header class="site-header">
    <div class="container">
-      <nav class="navbar navbar-dark bg-inverse">
+      <nav class="navbar navbar-default">
          <!-- <a href="#" class="menu-icon">
             <svg viewBox="0 0 18 15">
                <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
@@ -8,34 +8,53 @@
                <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
             </svg>
          </a> -->
-         <div class="row">
+         <div class="row top">
             <div class="col-md-5">
                <a class="navbar-brand" href="{{ site.baseurl }}/">
                   <img src="/images/bitquest-logo.png" alt="{{ site.title }}">
                </a>
             </div>
-            <div class="col-md-7">
-               <h1 class="navbar-txt">Welcome to the <strong>Minecraft</strong> Server with a <strong>Bitcoin</strong> denominated monetary system.</h1>
+            <div class="col-md-7 navbar-txt">
+               <h1 class="txt">Welcome to the <strong>Minecraft</strong> Server with a <strong>Bitcoin</strong> denominated monetary system.</h1>
             </div>
          </div>
-         <ul class="nav navbar-nav pull-sm-left">
-            {% for my_page in site.pages %}
-               {% if my_page.title %}
+         <div class="row">
+            <div class="col-md-7">
+               <ul class="nav navbar-nav">
+                  {% for my_page in site.pages %}
+                     {% if my_page.title %}
+                        <li class="nav-item">
+                           <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                        </li>
+                     {% endif %}
+                  {% endfor %}
                   <li class="nav-item">
-                     <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                     <a href="https://github.com/bitquest" class="nav-link" target="_blank">Github</a>
                   </li>
-               {% endif %}
-            {% endfor %}
-            <li class="nav-item">
-               <a href="#" class="nav-link">Github</a>
-            </li>
-            <li class="nav-item">
-               <a href="#" class="nav-link">Wiki</a>
-            </li>
-         </ul>
-         <div class="navbar-nav pull-sm-right">
-            right
+                  <li class="nav-item">
+                     <a href="https://www.reddit.com/r/bitquest/wiki/index" class="nav-link" target="_blank">Wiki</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="https://www.reddit.com/r/bitquest" class="nav-link" target="_blank">Community</a>
+                  </li>
+               </ul>
+            </div>
+            
+            <div class="col-md-offset-1 col-md-4">
+               <div class="newsletter-box">
+                  <span class="cta text-right">
+                     Subscribe to the newsletter
+                  </span>
+                  <form action="" class="form-inline">
+                     <div class="form-group">
+                        <input type="email" class="form-control" placeholder="your@email.com">
+                     </div>
+                     <button type="submit" class="btn btn-sm btn-primary">Subscribe</button>
+                  </form>
+               </div>
+            </div>
          </div>
+         
          <!-- <form class="form-inline pull-xs-right">
             <input class="form-control" type="text" placeholder="Search">
             <button class="btn btn-success-outline" type="submit">Search</button>

@@ -5,7 +5,7 @@ date:   2015-12-21 17:17:00 -0300
 author: "jstnn"
 ---
 ![](http://i.imgur.com/hDK3kMb.png)
-Santa has come to Satoshi Town with a special surprise!!
+**Santa has come to Satoshi Town with a special surprise!!**
 
 We’re excited to announce that **BitQuest is now available as an open source Minecraft Spigot Plugin**. The first plugin ever to integrate Bitcoin as an in-game currency. You can check the official repository here: [https://github.com/bitquest/bitquest](https://github.com/bitquest/bitquest)
 
