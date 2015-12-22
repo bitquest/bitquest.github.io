@@ -1,13 +1,20 @@
+// GROUND SECTION
+.ground {
+    background:url('/images/earth-bg.png');
+}
 /**
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    background:url('/images/frame.png'), url('/images/static.png');
+    background-size:cover;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
+    padding:2rem 0;
+    .navbar {
+        background:transparent;
+    }
 }
 
 .site-title {

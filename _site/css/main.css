@@ -144,14 +144,20 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+.ground {
+  background: url("/images/earth-bg.png"); }
+
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
+  background: url("/images/frame.png"), url("/images/static.png");
+  background-size: cover;
   border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  position: relative; }
+  position: relative;
+  padding: 2rem 0; }
+  .site-header .navbar {
+    background: transparent; }
 
 .site-title {
   font-size: 26px;
