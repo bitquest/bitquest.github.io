@@ -8,6 +8,7 @@
 .site-header {
     background:url('/images/frame.png'), url('/images/static.png');
     background-size:cover;
+    background-position:center;
     border-bottom: 1px solid $grey-color-light;
     // Positioning context for the mobile navigation icon
     position: relative;

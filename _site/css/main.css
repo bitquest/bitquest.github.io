@@ -19,7 +19,8 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  font-kerning: normal;
+  background: url("/images/bg.gif"); }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -153,6 +154,7 @@ pre {
 .site-header {
   background: url("/images/frame.png"), url("/images/static.png");
   background-size: cover;
+  background-position: center;
   border-bottom: 1px solid #e8e8e8;
   position: relative;
   padding: 2rem 0; }
