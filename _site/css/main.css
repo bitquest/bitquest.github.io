@@ -401,12 +401,21 @@ pre {
     padding: 3px 8px; }
     .newsletter-box form .form-group {
       width: 60%;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      position: relative; }
+      .newsletter-box form .form-group .mdi {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        margin-top: -10px;
+        font-size: 20px;
+        opacity: .5; }
     .newsletter-box form .form-control {
       border: none;
       box-shadow: none;
       border-radius: 0;
-      background: transparent; }
+      background: transparent;
+      padding-left: 40px; }
     .newsletter-box form .btn {
       float: right; }
 

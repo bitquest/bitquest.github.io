@@ -354,12 +354,22 @@
         .form-group {
             width:60%;
             margin-bottom:0;
+            position: relative;
+            .mdi {
+                position: absolute;
+                left: 10px;
+                top: 50%;
+                margin-top:-10px;
+                font-size:20px;
+                opacity:.5;
+            }
         }
         .form-control {
             border:none;
             box-shadow: none;
             border-radius:0;
             background:transparent;
+            padding-left:40px;
         }
         .btn {
             float: right;
