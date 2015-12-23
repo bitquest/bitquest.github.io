@@ -164,7 +164,7 @@ pre {
   background-size: cover;
   background-position: center;
   position: relative;
-  padding: 0 0 10px; }
+  padding: 0 0 50px; }
   .site-header .navbar {
     background: transparent; }
   .site-header .row {
@@ -177,11 +177,22 @@ pre {
         text-align: center !important; } }
     .site-header .row.top {
       padding: 3rem 0; }
-    .site-header .row > div {
-      width: 100%; }
+  .site-header .features {
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.1rem; }
+    .site-header .features img {
+      width: 60%;
+      margin: 0 auto;
+      border: 5px solid #FFBA2B;
+      margin-bottom: 5px; }
+    .site-header .features h2 {
+      color: #FFBA2B;
+      text-transform: uppercase !important; }
   .site-header .navbar-brand {
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 20px; }
     .site-header .navbar-brand img {
       display: inline-block; }
     @media screen and (max-width: 991px) {
@@ -190,7 +201,7 @@ pre {
         max-width: 600px; } }
   .site-header .navbar-txt {
     color: #fff;
-    text-align: right; }
+    text-align: center; }
     .site-header .navbar-txt .txt {
       font-size: 1.7rem;
       margin: 0; }

@@ -20,7 +20,7 @@
     background-position:center;
     // Positioning context for the mobile navigation icon
     position: relative;
-    padding:0 0 10px;
+    padding:0 0 50px;
     .navbar {
         background:transparent;
     }
@@ -36,12 +36,28 @@
             padding:3rem 0;
         }
         > div {
-            width:100%;
+            // width:100%;
+        }
+    }
+    .features {
+        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+        text-align:center;
+        font-size:1.1rem;
+        img {
+            width:60%;
+            margin:0 auto;
+            border:5px solid $brand-color;
+            margin-bottom:5px;
+        }
+        h2 {
+            color:$brand-color;
+            text-transform:uppercase !important;
         }
     }
     .navbar-brand {
         width:100%;
         text-align:center;
+        margin-bottom:20px;
         img {
             display: inline-block;
         }
@@ -54,7 +70,7 @@
     }
     .navbar-txt {
         color:#fff;
-        text-align: right;
+        text-align:center;
         .txt {
             font-size:1.7rem;
             margin:0;

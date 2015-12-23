@@ -2,14 +2,11 @@
 
   <div class="container">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <h2 class="footer-heading"></h2>
 
     <div class="row">
       <div class="col-md-7">
-        <ul class="contact-list">
-          <li>Contact Us</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+        
         <ul class="social-media-list hr">
           {% if site.github_username %}
           <li>
@@ -42,6 +39,11 @@
               <span class="username">{{ site.reddit_username }}</span></a>
           </li>
           {% endif %}
+        </ul>
+
+        <ul class="contact-list">
+          <li>BitQuest - {{ site.title }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 

@@ -1,19 +1,23 @@
 ---
-layout: home
+layout: default
 ---
 
 <section class="home">
-  <H4><b>From the blog...</b></H4>
+
   <ul class="post-list">
     {% for post in site.posts %}
       <li class="post">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h3 class="post-title">
+        <h2 class="post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-        <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
+        </h2>
+        <div class="post-content">
+          {{ post.content }}
+        </div>
       </li>
     {% endfor %}
   </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </section>
