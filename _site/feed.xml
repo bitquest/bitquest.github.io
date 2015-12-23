@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Dec 2015 19:45:00 -0300</pubDate>
-    <lastBuildDate>Wed, 23 Dec 2015 19:45:00 -0300</lastBuildDate>
+    <pubDate>Wed, 23 Dec 2015 19:55:07 -0300</pubDate>
+    <lastBuildDate>Wed, 23 Dec 2015 19:55:07 -0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -18,6 +18,8 @@
 &lt;p&gt;We’re excited to announce that &lt;strong&gt;BitQuest is now available as an open source Minecraft Spigot Plugin&lt;/strong&gt;. The first plugin ever to integrate Bitcoin as an in-game currency. You can check the official repository here: &lt;a href=&quot;https://github.com/bitquest/bitquest&quot;&gt;https://github.com/bitquest/bitquest&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;BitQuest started as a side project by &lt;a href=&quot;https://github.com/explodi&quot;&gt;explodi&lt;/a&gt; to create an unique Minecraft server with a Bitcoin-denominated economy, where players could buy, sell and trade items using BTC micropayments. One year later, we had quite a run: &lt;strong&gt;324 commits, and more than 6 BTC earned by players&lt;/strong&gt;, and we want to take it further, which is why we want to make more people be involved with the development. We put extra effort to clean up the code to open source BitQuest as a Minecraft Spigot plugin, all with a MIT license.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;This means you can run your own BitQuest server with a Bitcoin wallet of your choice as the main reserve, and build Minecraft realms fuelled with the power of Bitcoin as an in-game economy.&lt;/p&gt;
 

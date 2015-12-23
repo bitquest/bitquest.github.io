@@ -34,10 +34,30 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit * 0.9;
 }
 
-
+hr {
+    margin-top: 52px;
+    margin-bottom: 42px;
+    display: block;
+    border: 0;
+    text-align: center;
+    box-sizing: content-box;
+    height: 0;
+    &:before {
+        content: '...';
+        display: inline-block;
+        margin-left: 0.6em;
+        color: rgba(black, .3);
+        position: relative;
+        top: -30px;
+        font-family: $base-font-family;
+        font-weight: 400;
+        font-size: 28px;
+        letter-spacing: 0.6em;
+    }
+}
 
 /**
  * Images

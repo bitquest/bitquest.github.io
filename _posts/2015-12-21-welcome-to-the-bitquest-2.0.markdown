@@ -11,6 +11,8 @@ We’re excited to announce that **BitQuest is now available as an open source M
 
 BitQuest started as a side project by [explodi](https://github.com/explodi) to create an unique Minecraft server with a Bitcoin-denominated economy, where players could buy, sell and trade items using BTC micropayments. One year later, we had quite a run: **324 commits, and more than 6 BTC earned by players**, and we want to take it further, which is why we want to make more people be involved with the development. We put extra effort to clean up the code to open source BitQuest as a Minecraft Spigot plugin, all with a MIT license.
 
+***
+
 This means you can run your own BitQuest server with a Bitcoin wallet of your choice as the main reserve, and build Minecraft realms fuelled with the power of Bitcoin as an in-game economy.
 
 A few points we want to clarify for our current (and new) players:

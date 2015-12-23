@@ -28,7 +28,27 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 15px; }
+  margin-bottom: 27px; }
+
+hr {
+  margin-top: 52px;
+  margin-bottom: 42px;
+  display: block;
+  border: 0;
+  text-align: center;
+  box-sizing: content-box;
+  height: 0; }
+  hr:before {
+    content: '...';
+    display: inline-block;
+    margin-left: 0.6em;
+    color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: -30px;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.6em; }
 
 /**
  * Images
