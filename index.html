@@ -2,20 +2,19 @@
 layout: home
 ---
 
-<section class="home">
-  <H4><b>From the blog...</b></H4>
+<section class="latest-posts">
+  <h4>Latests Posts</h4>
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:2 %}
       <li class="post">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h3 class="post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
-        <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
+        <p>{{ post.content | strip_html | truncatewords: 33 }}</p>
         <p><a href="{{ post.url | prepend: site.baseurl }}">&raquo; View more</a></p>
       </li>
     {% endfor %}
-    <li class="post"><h4><a href="/blog">&raquo; Bitquest development blog</a></h4></li>
+    <a href="/blog" class="btn btn-info">&raquo; Bitquest development blog</a>
   </ul>
-
 </section>

@@ -1,40 +1,59 @@
-<header class="site-header">
-   <div class="container">
-      <nav class="navbar navbar-default">
-         <div class="row top">
-            <div class="col-md-4 col-md-offset-4">
-               <a class="navbar-brand" href="{{ site.baseurl }}/">
-                  <img src="/images/bitquest-logo.png" alt="{{ site.title }}">
-               </a>
-            </div>
+<header class="site-header landing-header">
+	<div class="container">
+		<div class="row">
+	    <div class="col-lg-12">
+	      <ul class="nav navbar-nav">
+	        {% for my_page in site.pages %}
+	           {% if my_page.title %}
+	              <li class="nav-item">
+	                 <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+	              </li>
+	           {% endif %}
+	        {% endfor %}
+	        <li class="nav-item">
+	           <a href="https://github.com/bitquest" class="nav-link" target="_blank">Github</a>
+	        </li>
+	        <li class="nav-item">
+	           <a href="https://www.reddit.com/r/bitquest/wiki/index" class="nav-link" target="_blank">Wiki</a>
+	        </li>
+	        <li class="nav-item">
+	           <a href="https://www.reddit.com/r/bitquest" class="nav-link" target="_blank">Community</a>
+	        </li>
+	      </ul>
+	    </div>
+	 	</div>
 
-            <div class="col-md-6 col-md-offset-3 navbar-txt">
-               <h1 class="txt">Welcome to the first <strong>Minecraft</strong> Server with a <strong>Bitcoin</strong> denominated monetary system.</h1>
-            </div>
-         </div>
-         <div class="row features">
-           <div class="col-md-4">
-             <h2>Bits</h2>
-             <img class="img-responsive img-circle" src="images/bank.jpg">
-             <p>The currency on this server are the Bits. A bit is a fraction of a Bitcoin (1/10000) that you can obtain by killing monsters, trading with users or transfering from an outside wallet. All of it is stored on a standard Bitcoin wallet on the Blockchain.</p>
-           </div>
-           <div class="col-md-4">
-             <h2>Level System</h2>
-             <img class="img-responsive img-circle" src="images/level.jpg">
-             <p>The level system is different that in a vanilla server. You gather experience from killing mobs and is never lost. Your XP allows you to become stronger and gain extra health. Mobs also have levels and special abilities specially in dungeons and dangerous areas.</p>
-          </div>
-           <div class="col-md-4">
-             <h2>Fun</h2>
-             <img class="img-responsive img-circle" src="images/fun.jpg">
-             <p>The server is made having the concept of fun in it. Bots and AFK farming is strictly banned, and there are hidden bosses and dungeons.</p>
-           </div>
-         </div>
-
-         
-         <!-- <form class="form-inline pull-xs-right">
-            <input class="form-control" type="text" placeholder="Search">
-            <button class="btn btn-success-outline" type="submit">Search</button>
-         </form> -->
-      </nav>
-   </div>
+		<a class="navbar-brand" href="{{ site.baseurl }}/">
+			<img src="/images/bitquest-logo.png" alt="{{ site.title }}">
+		</a>
+						
+		<div class="navbar-txt">
+			<h1 class="txt">Welcome to the first <strong>Minecraft</strong> Server with a <strong>Bitcoin</strong> denominated monetary system.</h1>
+		</div>			
+	</div>
+	<div class="row features">
+		<div class="container">
+			<div class="feat col-md-4">
+				<img class="img-responsive img-circle feat-image" src="images/bank.jpg">
+				<div class="feat-desc">
+					<h2 class="feat-title">Bits</h2>
+					<p>The currency on this server are the Bits. <strong>A bit is a fraction of a Bitcoin (1/10000)</strong> that you can obtain by killing monsters, trading with users or transfering from an outside wallet. All of it is stored on a <strong>standard Bitcoin wallet on the Blockchain</strong>.</p>
+				</div>
+		 	</div>
+		 	<div class="feat col-md-4">
+				<img class="img-responsive img-circle feat-image" src="images/level.jpg">
+				<div class="feat-desc">
+					<h2 class="feat-title">Level System</h2>
+					<p>The level system is different that in a vanilla server. <strong>You gather experience from killing mobs and is never lost</strong>. Your XP allows you to become stronger and gain extra health. Mobs also have levels and special abilities specially in dungeons and dangerous areas.</p>
+				</div>
+		 	</div>
+		 	<div class="feat col-md-4">
+				<img class="img-responsive img-circle feat-image" src="images/fun.jpg">
+				<div class="feat-desc">
+					<h2 class="feat-title">Fun</h2>
+					<p>The server is made having the concept of fun in it. <strong>Bots and AFK farming is strictly banned</strong>, and there are hidden bosses and dungeons.</p>
+				</div>
+		 	</div>
+		</div>
+ 	</div>
 </header>

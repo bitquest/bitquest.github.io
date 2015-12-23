@@ -23,7 +23,6 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    background:url('/images/bg.gif');
 }
 
 
@@ -67,7 +66,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    // margin-left: $spacing-unit;
 }
 
 li {
@@ -83,8 +82,11 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: 700;
     font-family: $headings-font-family;
+    &.upper {
+        text-transform: uppercase;
+    }
 }
 
 
@@ -97,11 +99,11 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        // color: darken($brand-color, 15%);
     }
 
     &:hover {
-        color: $text-color;
+        color: lighten($brand-color, 15%);
         text-decoration: underline;
     }
 }
