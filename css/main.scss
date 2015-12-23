@@ -6,16 +6,16 @@
 
 
 // Our variables
-$base-font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
+$base-font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   19px;
+$base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.58;
 
 $headings-font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
 $spacing-unit:     30px;
 
-$text-color:       #333;
+$text-color:       rgba(black, .75);
 $background-color: #fff;
 $brand-color:      #FFBA2B;
 

@@ -11,8 +11,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  font: 300 19px/1.58 "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.75);
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -44,7 +44,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 16.625px; }
 
 /**
  * Lists
@@ -165,7 +165,7 @@ section.main {
   background-size: 30px auto, auto;
   padding: 3rem 0 2rem !important; }
 
-.site-header .row.top, .site-header .navbar-nav {
+.site-header .navbar-nav, .site-header.simple-header .row {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -188,8 +188,6 @@ section.main {
   background-position: center;
   position: relative;
   color: white; }
-  .site-header .row.top {
-    padding: 2rem 0; }
   .site-header .navbar-brand {
     width: 100%;
     text-align: center;
@@ -245,21 +243,33 @@ section.main {
     .site-header .newsletter-box {
       width: 70% !important;
       margin: 1rem auto; } }
-  .site-header.simple-header {
-    padding-bottom: 10px; }
-    .site-header.simple-header .navbar-brand {
-      padding: 0; }
-    .site-header.simple-header .navbar-txt {
-      padding-bottom: 0;
-      text-align: right; }
-      .site-header.simple-header .navbar-txt .txt {
-        font-size: 1.4rem; }
-        @media screen and (max-width: 991px) {
-          .site-header.simple-header .navbar-txt .txt {
-            font-size: 1.1rem; } }
-      @media screen and (max-width: 600px) {
-        .site-header.simple-header .navbar-txt {
-          display: none; } }
+  .site-header.simple-header .row {
+    padding: 1.3rem 0; }
+    @media screen and (max-width: 600px) {
+      .site-header.simple-header .row {
+        display: block; }
+        .site-header.simple-header .row > [class*="col"] {
+          -webkit-flex-wrap: nowrap;
+              -ms-flex-wrap: nowrap;
+                  flex-wrap: nowrap;
+          width: 100%; } }
+  .site-header.simple-header .navbar-brand {
+    padding: 0;
+    text-align: left; }
+    @media screen and (max-width: 600px) {
+      .site-header.simple-header .navbar-brand {
+        text-align: center; } }
+  .site-header.simple-header .navbar-txt {
+    padding-bottom: 0;
+    text-align: right; }
+    .site-header.simple-header .navbar-txt .txt {
+      font-size: 1.4rem; }
+      @media screen and (max-width: 991px) {
+        .site-header.simple-header .navbar-txt .txt {
+          font-size: 1.1rem; } }
+    @media screen and (max-width: 600px) {
+      .site-header.simple-header .navbar-txt {
+        display: none; } }
 
 .features {
   text-align: center;
@@ -301,8 +311,8 @@ section.main {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #333;
-    line-height: 1.5; }
+    color: rgba(0, 0, 0, 0.75);
+    line-height: 1.58; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
@@ -345,7 +355,8 @@ section.main {
  */
 .site-footer {
   padding: 30px 0;
-  color: #dddddd; }
+  color: #dddddd;
+  font-size: 15.2px; }
 
 .footer-heading {
   font-size: 18px;
@@ -443,7 +454,7 @@ section.main {
   letter-spacing: -1px;
   line-height: 1;
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 42.75px;
   margin: 0 0 1rem; }
   @media screen and (max-width: 800px) {
     .post-title {
@@ -547,7 +558,7 @@ section.main {
         font-size: 1.2em;
         display: block; }
   .playnow p {
-    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px; }
   .playnow .playnow-server {
     border: 1px solid rgba(255, 186, 43, 0.3);
@@ -560,6 +571,9 @@ section.main {
     padding: 1rem 1rem 0; }
     .playnow .how-to-play ul {
       margin: 0 0 0 2rem; }
+
+.breadcrumb {
+  background: transparent; }
 
 /**
  * Syntax highlighting styles
