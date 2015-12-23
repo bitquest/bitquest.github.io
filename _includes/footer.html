@@ -5,22 +5,31 @@
     <h2 class="footer-heading"></h2>
 
     <div class="row">
+
       <div class="col-md-7">
         
         <ul class="social-media-list hr">
+          {% if site.reddit_username %}
+          <li>
+            <a href="http://reddit.com/r/{{ site.reddit_username }}">
+              <span class="icon icon--reddit"><i class="mdi mdi-reddit"></i></span>
+              <span class="username">/r/{{ site.reddit_username }}</span></a>
+          </li>
+          {% endif %}
+
           {% if site.github_username %}
           <li>
             <a href="http://github.com/{{ site.github_username }}">
               <span class="icon icon--github"><i class="mdi mdi-github-box"></i></span>
-              <span class="username">{{ site.github_username }}</span></a>
+              <span class="username">github.com/{{ site.github_username }}</span></a>
           </li>
           {% endif %}
-
+          
           {% if site.twitter_username %}
           <li>
             <a href="http://twitter.com/{{ site.twitter_username }}">
               <span class="icon icon--twitter"><i class="mdi mdi-twitter-box"></i></span>
-              <span class="username">{{ site.twitter_username }}</span></a>
+              <span class="username">@{{ site.twitter_username }}</span></a>
           </li>
           {% endif %}
 
@@ -31,14 +40,7 @@
               <span class="username">{{ site.facebook_username }}</span></a>
           </li>
           {% endif %}
-
-          {% if site.reddit_username %}
-          <li>
-            <a href="http://reddit.com/r/{{ site.reddit_username }}">
-              <span class="icon icon--reddit"><i class="mdi mdi-reddit"></i></span>
-              <span class="username">{{ site.reddit_username }}</span></a>
-          </li>
-          {% endif %}
+          
         </ul>
 
         <ul class="contact-list">

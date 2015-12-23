@@ -12,8 +12,10 @@ layout: home
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
         <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
+        <p><a href="{{ post.url | prepend: site.baseurl }}">&raquo; View more</a></p>
       </li>
     {% endfor %}
+    <li class="post"><h4><a href="/blog">&raquo; Bitquest development blog</a></h4></li>
   </ul>
 
 </section>
