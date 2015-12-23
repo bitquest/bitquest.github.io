@@ -164,7 +164,8 @@ section.main {
 .ground {
   background: url("/images/earth-bg.png"), url("/images/bg.gif");
   background-repeat: repeat-x, repeat;
-  padding: 3rem 0 2rem; }
+  background-size: 30px auto, auto;
+  padding: 3rem 0 2rem !important; }
 
 .site-header .row.top, .site-header .navbar-nav {
   display: flex;
@@ -335,7 +336,7 @@ section.main {
  */
 .site-footer {
   padding: 30px 0;
-  border-top: 2px solid rgba(255, 255, 255, 0.2); }
+  color: #dddddd; }
 
 .footer-heading {
   font-size: 18px;
@@ -476,11 +477,12 @@ section.main {
     font-size: 15px;
     line-height: 26px;
     display: block;
-    top: -28px;
+    bottom: -28px;
     left: 0;
     width: 100%;
     position: absolute;
-    padding: 0 .5rem; }
+    padding: 0 .5rem;
+    color: #dddddd; }
   .newsletter-box form {
     display: flex;
     justify-content: space-between;
@@ -497,7 +499,8 @@ section.main {
         top: 50%;
         margin-top: -10px;
         font-size: 20px;
-        opacity: .5; }
+        opacity: .5;
+        color: #dddddd; }
     .newsletter-box form .form-control {
       border: none;
       box-shadow: none;

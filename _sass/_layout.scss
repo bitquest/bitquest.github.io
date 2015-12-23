@@ -27,7 +27,8 @@ section.main {
 .ground {
     background:url('/images/earth-bg.png'), url('/images/bg.gif');
     background-repeat:repeat-x, repeat;
-    padding:3rem 0 2rem;
+    background-size:30px auto, auto;
+    padding:3rem 0 2rem !important;
 }
 %flex-container {
     display:flex;
@@ -270,7 +271,8 @@ section.main {
  */
 .site-footer {
     padding: $spacing-unit 0;
-    border-top:2px solid rgba(white, .2);
+    // border-top:2px solid rgba(white, .2);
+    color:$grey-color-light;        
 }
 
 .footer-heading {
@@ -463,11 +465,12 @@ section.main {
         font-size:15px;
         line-height:$cta-h;
         display:block;
-        top:-$cta-h + -2px;
+        bottom:-$cta-h + -2px;
         left:0;
         width:100%;
         position: absolute;
         padding:0 .5rem;
+        color:$grey-color-light;
     }
     form {
         display:flex;
@@ -486,6 +489,7 @@ section.main {
                 margin-top:-10px;
                 font-size:20px;
                 opacity:.5;
+                color:$grey-color-light;
             }
         }
         .form-control {
