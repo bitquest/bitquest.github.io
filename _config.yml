@@ -21,3 +21,6 @@ reddit_username:  bitquest
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - octopress-autoprefixer

@@ -471,6 +471,9 @@ section.main {
         position: absolute;
         padding:0 .5rem;
         color:$grey-color-light;
+        @include media-query($on-palm) {
+            text-align: left;
+        }
     }
     form {
         display:flex;
