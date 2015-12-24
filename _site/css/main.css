@@ -474,31 +474,33 @@ section.main {
   margin: 0 0 1rem; }
   @media screen and (max-width: 800px) {
     .post-title {
-      font-size: 36px; } }
+      font-size: 37.05px; } }
 
 .post-content {
   margin-bottom: 30px; }
   .post-content h2 {
-    font-size: 32px; }
+    font-size: 32.3px; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
-        font-size: 28px; } }
+        font-size: 28.5px; } }
   .post-content h3 {
-    font-size: 26px; }
+    font-size: 28.5px; }
     @media screen and (max-width: 800px) {
       .post-content h3 {
-        font-size: 22px; } }
+        font-size: 24.7px; } }
   .post-content h4 {
-    font-size: 20px; }
+    font-size: 24.7px; }
     @media screen and (max-width: 800px) {
       .post-content h4 {
-        font-size: 18px; } }
+        font-size: 20.9px; } }
   .post-content p img + small {
     margin-top: 10px;
     display: block;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.4);
     line-height: 1.2em; }
+  .post-content a, .post-content strong, .post-content em {
+    font-weight: 400; }
 
 .newsletter-box {
   font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
