@@ -10,8 +10,8 @@ layout: default
         <h3 class="post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
-        <p>{{ post.excerpt }}</p>
-        <p><a href="{{ post.url | prepend: site.baseurl }}">&raquo; View more</a></p>
+        <p>{{ post.content | strip_html | truncatewords: 26 }} <a href="{{ post.url | prepend: site.baseurl }}">&raquo; Continue Reading</a></p>
+        <p></p>
       </li>
     {% endfor %}
   </ul>
