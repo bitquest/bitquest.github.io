@@ -4,6 +4,9 @@ title:  "Welcome to BitQuest 2.0"
 date:   2015-12-21 17:17:00 -0300
 author: "jstnn"
 ---
+We’re excited to announce that **BitQuest is now available as an open source Minecraft Spigot Plugin**. The first plugin ever to integrate Bitcoin as an in-game currency.
+<!-- more -->
+
 ![](http://i.imgur.com/hDK3kMb.png)
 <small>Santa has come to Satoshi Town with a special surprise!!</small>
 

@@ -4,6 +4,8 @@ title:  "BitQuest 2.0 is coming soon"
 date:   2015-12-07 17:17:00 -0300
 author: "explodi"
 ---
+We've been quiet for a period of a few months, and we are deeply sorry for all of you guys who felt abandoned, but the time has come to re structure this project and find the best way to achieve the great ideas we have for this server.
+<!-- more -->
 Hi fellow BitQuesters!!
 
 We've been quiet for a period of a few months, and we are deeply sorry for all of you guys who felt abandoned, but the time has come to re structure this project and find the best way to achieve the great ideas we have for this server.

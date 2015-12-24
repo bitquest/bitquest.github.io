@@ -18,6 +18,7 @@ twitter_username: bitquestmc
 github_username:  bitquest
 facebook_username:  BitQuestMC
 reddit_username:  bitquest
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown

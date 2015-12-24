@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<section class="main">
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -11,7 +10,7 @@ layout: default
         <h3 class="post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
-        <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
+        <p>{{ post.excerpt }}</p>
         <p><a href="{{ post.url | prepend: site.baseurl }}">&raquo; View more</a></p>
       </li>
     {% endfor %}
@@ -19,4 +18,3 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</section>
