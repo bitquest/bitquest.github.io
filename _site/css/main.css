@@ -19,7 +19,8 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   -webkit-font-kerning: normal;
-          font-kerning: normal; }
+          font-kerning: normal;
+  min-width: 320px; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -185,7 +186,7 @@ section.main {
   background-size: 30px auto, auto;
   padding: 3rem 0 2rem !important; }
 
-.site-header .navbar-nav, .site-header.simple-header .row {
+.site-header .navbar-nav, .site-header.simple-header.navbar {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -206,7 +207,6 @@ section.main {
   background: url("/images/frame.png"), url("/images/bitquest-map-lg.jpg");
   background-size: cover, cover;
   background-position: center;
-  position: relative;
   color: white; }
   .site-header .navbar-brand {
     width: 100%;
@@ -263,33 +263,27 @@ section.main {
     .site-header .newsletter-box {
       width: 70% !important;
       margin: 1rem auto; } }
-  .site-header.simple-header .row {
-    padding: 1.3rem 0; }
+  .site-header.simple-header.navbar {
+    padding: .6rem 0; }
     @media screen and (max-width: 600px) {
-      .site-header.simple-header .row {
+      .site-header.simple-header.navbar {
         display: block; }
-        .site-header.simple-header .row > [class*="col"] {
+        .site-header.simple-header.navbar > [class*="navbar"] {
           -webkit-flex-wrap: nowrap;
               -ms-flex-wrap: nowrap;
                   flex-wrap: nowrap;
           width: 100%; } }
   .site-header.simple-header .navbar-brand {
+    width: 30%;
+    margin: 0;
     padding: 0;
     text-align: left; }
     @media screen and (max-width: 600px) {
       .site-header.simple-header .navbar-brand {
         text-align: center; } }
-  .site-header.simple-header .navbar-txt {
-    padding-bottom: 0;
-    text-align: right; }
-    .site-header.simple-header .navbar-txt .txt {
-      font-size: 1.4rem; }
-      @media screen and (max-width: 991px) {
-        .site-header.simple-header .navbar-txt .txt {
-          font-size: 1.1rem; } }
-    @media screen and (max-width: 600px) {
-      .site-header.simple-header .navbar-txt {
-        display: none; } }
+  .site-header.simple-header .navbar-nav {
+    margin: 0;
+    width: 50%; }
 
 .features {
   text-align: center;
@@ -469,6 +463,8 @@ section.main {
  */
 .post-header {
   margin-bottom: 30px; }
+  .post-header .post-title, .post-header .post-meta {
+    margin-bottom: 0; }
 
 .post-title {
   letter-spacing: -1px;
@@ -497,11 +493,12 @@ section.main {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
-  .post-content p img + strong {
+  .post-content p img + small {
     margin-top: 10px;
     display: block;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6); }
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.2em; }
 
 .newsletter-box {
   font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;

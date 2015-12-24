@@ -43,8 +43,6 @@ section.main {
     background:url('/images/frame.png'), url('/images/bitquest-map-lg.jpg');
     background-size:cover, cover;
     background-position:center;
-    // Positioning context for the mobile navigation icon
-    position: relative;
     color:white;
     .navbar-brand {
         width:100%;
@@ -118,38 +116,29 @@ section.main {
         }
     }
     &.simple-header {
-        .row {
+        &.navbar {
             @extend %flex-container;
-            padding:1.3rem 0;
-            > [class*="col"] {
-            }
+            padding:.6rem 0;
             @include media-query($on-palm) {
                 display:block;
-                > [class*="col"] {
+                > [class*="navbar"] {
                     flex-wrap:nowrap;
                     width:100%;
                 }
             }
         }
         .navbar-brand {
+            width:30%;
+            margin:0;
             padding:0;
             text-align:left;
             @include media-query($on-palm) {
                 text-align:center;
             }
         }
-        .navbar-txt {
-            padding-bottom:0;
-            text-align: right;
-            .txt {
-                font-size:1.4rem;
-                @include media-query($bs-custom) {
-                    font-size:1.1rem;
-                }
-            }
-            @include media-query($on-palm) {
-                display: none;
-            }
+        .navbar-nav {
+            margin:0;
+            width:50%;
         }
     }
 }
@@ -417,7 +406,15 @@ section.main {
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    .post-title, .post-meta {
+        margin-bottom:0;
+    }
+    .post-meta {
+        
+    }
 }
+
+
 
 .post-title {
     letter-spacing: -1px;
@@ -436,7 +433,6 @@ section.main {
 
     h2 {
         font-size: 32px;
-
         @include media-query($on-laptop) {
             font-size: 28px;
         }
@@ -444,7 +440,6 @@ section.main {
 
     h3 {
         font-size: 26px;
-
         @include media-query($on-laptop) {
             font-size: 22px;
         }
@@ -452,17 +447,17 @@ section.main {
 
     h4 {
         font-size: 20px;
-
         @include media-query($on-laptop) {
             font-size: 18px;
         }
     }
     p {
-        img + strong {
+        img + small {
             margin-top:10px;
             display:block;
             font-weight:400;
-            color:rgba(white, .6);
+            color:rgba(black, .6);
+            line-height:1.2em;
         }
     }
 }
