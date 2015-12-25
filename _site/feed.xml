@@ -6,40 +6,21 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Dec 2015 11:08:39 -0300</pubDate>
-    <lastBuildDate>Fri, 25 Dec 2015 11:08:39 -0300</lastBuildDate>
+    <pubDate>Fri, 25 Dec 2015 11:43:32 -0300</pubDate>
+    <lastBuildDate>Fri, 25 Dec 2015 11:43:32 -0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Welcome to BitQuest 2.0</title>
-        <description>&lt;p&gt;&lt;small&gt;Santa has come to Satoshi Town with a special surprise!!&lt;/small&gt;&lt;/p&gt;
+        <title>BitQuest is now Open Source</title>
+        <description>&lt;p&gt;BitQuest started as an experiment to create a Bitcoin economy inside Minecraft and we have not only demonstrated how Bitcoin and Blockchain technology can be best game money in the world, but started the best community of players and collaborators we could ever hope for.&lt;/p&gt;
 
-&lt;p&gt;We’re excited to announce that &lt;strong&gt;BitQuest is now available as an open source Minecraft Spigot Plugin&lt;/strong&gt;. The first plugin ever to integrate Bitcoin as an in-game currency. You can check the official repository here: &lt;a href=&quot;https://github.com/bitquest/bitquest&quot;&gt;https://github.com/bitquest/bitquest&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We’re excited to announce that BitQuest 2.0 Beta testing has started, This is a complete rewrite of the project that works as a Spigot plugin, and completely Open Source under the Apache-2.0 License.&lt;/p&gt;
 
-&lt;p&gt;BitQuest started as a side project by &lt;a href=&quot;https://github.com/explodi&quot;&gt;explodi&lt;/a&gt; to create an unique Minecraft server with a Bitcoin-denominated economy, where players could buy, sell and trade items using BTC micropayments. One year later, we had quite a run: &lt;strong&gt;324 commits, and more than 6 BTC earned by players&lt;/strong&gt;, and we want to take it further, which is why we want to make more people be involved with the development. We put extra effort to clean up the code to open source BitQuest as a Minecraft Spigot plugin, all with a MIT license.&lt;/p&gt;
+&lt;p&gt;You can check the official repository here: &lt;a href=&quot;https://github.com/bitquest/bitquest&quot;&gt;https://github.com/bitquest/bitquest&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This means you can run your own BitQuest server with a Bitcoin wallet of your choice as the main reserve, and build Minecraft realms fuelled with the power of Bitcoin as an in-game economy.&lt;/p&gt;
+&lt;p&gt;That means the game mechanics and economy are completely transparent, we’ll be open to collaborations via pull requests to improve the game, everyone is welcome to fork and make their own Minecraft servers fuelled with the power of Bitcoin as an in-game economy.&lt;/p&gt;
 
-&lt;h2 id=&quot;title-heading-2-example-text&quot;&gt;Title Heading 2 Example Text&lt;/h2&gt;
-
-&lt;p&gt;A few points we want to clarify for our current (and new) players:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;We will be still be hosting the main BitQuest server where you can check the shiny new features. But now there will be two servers: “The Classic” (&lt;strong&gt;play.bitquest.co&lt;/strong&gt;), the actual server, and the “The Beta” (&lt;strong&gt;beta.bitquest.co&lt;/strong&gt;) who runs the last version. We encourage everyone to play the beta server and give us feedback about bugs or new features you would love to see.&lt;/li&gt;
-  &lt;li&gt;The gameplay have been streamlined, &lt;strong&gt;Banks and emerald blocks have been deprecated&lt;/strong&gt;. Players get BTC loot directly (through blockchain transactions) from killing mobs.&lt;/li&gt;
-  &lt;li&gt;You can register your own terrain to avoid griefing to your buildings placing a sign with the name of the area, this will cost you 20 bits, and you can expand the terrain placing adjacent signs with the same name.&lt;/li&gt;
-  &lt;li&gt;Next year, we’ll be deprecating the classic server in favour of the last version. We haven’t any schedule for this, but we’ll be notifying before it happens to our players through the BitQuest Chronicle Newsletter and the &lt;a href=&quot;https://www.reddit.com/r/bitquest&quot;&gt;subreddit&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;title-heading-3-example-text&quot;&gt;Title Heading 3 Example Text&lt;/h3&gt;
-
-&lt;p&gt;We’re also making public the BitQuest site through Github Pages. If you’re a web developer and want to contribute to our current site, feel free too fork our Jekyll repository: &lt;a href=&quot;https://github.com/bitquest/bitquest.github.io&quot;&gt;https://github.com/bitquest/bitquest.github.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;We want to thank &lt;a href=&quot;https://github.com/Xeyler&quot;&gt;Xeyler&lt;/a&gt;, the BitQuest Slack and &lt;a href=&quot;http://mego.cl&quot;&gt;Mego&lt;/a&gt; for helping on this huge re-launch.&lt;/p&gt;
-
-&lt;h4 id=&quot;title-heading-4-example-text&quot;&gt;Title Heading 4 Example Text&lt;/h4&gt;
+&lt;p&gt;We want to thank the folks at &lt;a href=&quot;http://xapo.com&quot;&gt;Xapo&lt;/a&gt;, &lt;a href=&quot;http://blockcypher.com&quot;&gt;BlockCypher&lt;/a&gt; &lt;a href=&quot;https://github.com/Xeyler&quot;&gt;Xeyler&lt;/a&gt;, the BitQuest Slack and &lt;a href=&quot;http://mego.cl&quot;&gt;Mego&lt;/a&gt; for helping on this huge re-launch.&lt;/p&gt;
 
 &lt;p&gt;We’re hoping to see you on the brand new BitQuest.
 Merry Christmas!!&lt;/p&gt;
