@@ -6,14 +6,13 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Dec 2015 01:30:08 -0300</pubDate>
-    <lastBuildDate>Thu, 24 Dec 2015 01:30:08 -0300</lastBuildDate>
+    <pubDate>Fri, 25 Dec 2015 11:04:26 -0300</pubDate>
+    <lastBuildDate>Fri, 25 Dec 2015 11:04:26 -0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Welcome to BitQuest 2.0</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/hDK3kMb.png&quot; alt=&quot;&quot; /&gt;
-&lt;small&gt;Santa has come to Satoshi Town with a special surprise!!&lt;/small&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;small&gt;Santa has come to Satoshi Town with a special surprise!!&lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;We’re excited to announce that &lt;strong&gt;BitQuest is now available as an open source Minecraft Spigot Plugin&lt;/strong&gt;. The first plugin ever to integrate Bitcoin as an in-game currency. You can check the official repository here: &lt;a href=&quot;https://github.com/bitquest/bitquest&quot;&gt;https://github.com/bitquest/bitquest&lt;/a&gt;&lt;/p&gt;
 
