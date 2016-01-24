@@ -43,6 +43,7 @@ section.main {
     background:url('/images/frame.png'), url('/images/bitquest-map-lg.jpg');
     background-size:cover, cover;
     background-position:center;
+    background-attachment: fixed;
     color:white;
     .navbar-brand {
         width:100%;
