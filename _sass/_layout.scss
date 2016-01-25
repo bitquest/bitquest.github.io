@@ -40,6 +40,11 @@ section.main {
  * Site header
  */
 .site-header {
+	image-rendering: -webkit-optimize-contrast; // Safari 6, UC Browser 9.9
+  	image-rendering: -webkit-crisp-edges; // Safari 7+
+  	image-rendering: -moz-crisp-edges; // Firefox 3.6+
+  	image-rendering: -o-crisp-edges; // Opera 12
+  	image-rendering: pixelated; // Chrome 41+ and Opera 26+
     background:url('/images/frame.png'), url('/images/bitquest-map-lg.jpg');
     background-size:cover, cover;
     background-position:center;
