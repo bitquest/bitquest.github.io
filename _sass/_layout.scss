@@ -298,7 +298,6 @@ section.main {
         display: inline-block;
         height:32px;
         line-height:32px;
-        color:white;
     }
 }
 .social-media-list {
@@ -311,6 +310,12 @@ section.main {
 ul {
     li {
         margin:1rem 0 0;
+        a {
+            color:white;
+            &:hover {
+                color:lighten($brand-color, 10%);
+            }
+        }
     }
 }
 .contact-list {

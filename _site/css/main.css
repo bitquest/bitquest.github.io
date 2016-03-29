@@ -388,11 +388,14 @@ section.main {
     vertical-align: middle;
     display: inline-block;
     height: 32px;
-    line-height: 32px;
-    color: white; }
+    line-height: 32px; }
 
 ul li {
   margin: 1rem 0 0; }
+  ul li a {
+    color: white; }
+    ul li a:hover {
+      color: #ffcb5e; }
 
 .contact-list {
   padding-top: 2rem;
