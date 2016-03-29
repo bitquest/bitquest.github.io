@@ -243,6 +243,8 @@ section.main {
     @media screen and (max-width: 991px) {
       .site-header .navbar-txt .txt {
         font-size: 1.6rem; } }
+  .site-header .btn {
+    margin: 5rem 0; }
   .site-header .navbar-nav {
     font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: .5rem 0 0;
@@ -577,6 +579,29 @@ section.main {
   .playnow p {
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px; }
+  .playnow .step {
+    padding: 1rem 1rem 3rem; }
+    .playnow .step .step-bullet {
+      width: 60px;
+      height: 60px;
+      float: left;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      background: url(/images/step-bullet.svg) no-repeat center;
+      background-size: cover;
+      margin-right: 1rem;
+      font-weight: 700;
+      color: white; }
   .playnow .playnow-server {
     border: 1px solid rgba(255, 186, 43, 0.3);
     color: #ffd378;
@@ -584,6 +609,8 @@ section.main {
     font-size: 1.1rem;
     display: inline-block;
     padding: .3rem 1.3rem; }
+  .playnow .server-info {
+    padding: 2rem; }
   .playnow .how-to-play {
     padding: 1rem 1rem 0; }
     .playnow .how-to-play ul {

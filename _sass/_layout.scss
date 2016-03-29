@@ -87,6 +87,9 @@ section.main {
             }
         }
     }
+    .btn {
+        margin:5rem 0;
+    }
     .navbar-nav {
         @extend %flex-container;
         font-family: $headings-font-family;
@@ -559,6 +562,22 @@ section.main {
         font-family: $base-font-family;
         font-size: 14px;
     }
+    .step {
+        padding:1rem 1rem 3rem;
+        .step-bullet {
+            width:60px;
+            height:60px;
+            float: left;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:url(/images/step-bullet.svg) no-repeat center;
+            background-size:cover;
+            margin-right:1rem;
+            font-weight:700;
+            color:white;
+        }
+    }
     .playnow-server {
         border:1px solid rgba($brand-color, .3);
         color:lighten($brand-color, 15%);
@@ -566,6 +585,9 @@ section.main {
         font-size:1.1rem;
         display:inline-block;
         padding:.3rem 1.3rem;
+    }
+    .server-info {
+        padding:2rem;
     }
     .how-to-play {
         padding:1rem 1rem 0;
