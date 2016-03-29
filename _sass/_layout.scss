@@ -582,7 +582,9 @@ ul {
             background-size:cover;
             margin-right:1rem;
             font-weight:700;
+            font-size:26px;
             color:white;
+            text-shadow:1px 1px 0 rgba(darken($brand-color, 35%), .3);
         }
     }
     .playnow-server-title {

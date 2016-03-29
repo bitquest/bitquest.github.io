@@ -601,7 +601,9 @@ ul li {
       background-size: cover;
       margin-right: 1rem;
       font-weight: 700;
-      color: white; }
+      font-size: 26px;
+      color: white;
+      text-shadow: 1px 1px 0 rgba(120, 81, 0, 0.3); }
   .playnow .playnow-server-title {
     color: #FFBA2B;
     margin-bottom: 1rem; }
