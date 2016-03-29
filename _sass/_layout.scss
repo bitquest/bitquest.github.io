@@ -28,7 +28,7 @@ section.main {
     background:url('/images/earth-bg.png'), url('/images/bg.gif');
     background-repeat:repeat-x, repeat;
     background-size:30px auto, auto;
-    padding:3rem 0 2rem !important;
+    padding:5rem 0 0 !important;
 }
 %flex-container {
     display:flex;
@@ -118,12 +118,6 @@ section.main {
             }
         }
     }
-    .newsletter-box {
-        @include media-query($bs-custom) {
-            width:70% !important;
-            margin:1rem auto;
-        }
-    }
     &.simple-header {
         &.navbar {
             @extend %flex-container;
@@ -179,12 +173,13 @@ section.main {
     .feat-desc {
         .feat-title {
             color:lighten($brand-color, 15%);
-            margin:1rem 0;
+            margin:2rem 0 1rem;
         }
         p {
             // background:rgba(black, .3);
             padding:.3rem;
-            font-size:1rem;
+            font-size:.9rem;
+            line-height:1.5em;
         }
     }
     @include media-query($tablet-sm) {
@@ -309,13 +304,19 @@ section.main {
 .social-media-list {
     &.hr {
         li {
-            margin-right:7px;
-            display:inline-block;
-            vertical-align:top;
+            
         }
     }
 }
-
+ul {
+    li {
+        margin:1rem 0 0;
+    }
+}
+.contact-list {
+    padding-top:2rem;
+    border-top:1px solid rgba(white, .2);
+}
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
@@ -477,6 +478,12 @@ section.main {
     }
 }
 
+.more-links {
+    list-style:none;
+    margin:0;
+    padding:0;
+    li {}
+}
 
 .newsletter-box {
     font-family: $headings-font-family;
@@ -487,10 +494,10 @@ section.main {
         font-size:15px;
         line-height:$cta-h;
         display:block;
-        bottom:-$cta-h + -2px;
-        left:0;
-        width:100%;
-        position: absolute;
+        // bottom:-$cta-h + -2px;
+        // left:0;
+        // width:100%;
+        // position: absolute;
         padding:0 .5rem;
         color:$grey-color-light;
         @include media-query($on-palm) {
@@ -501,7 +508,7 @@ section.main {
         display:flex;
         justify-content:space-between;
         align-items:center;
-        background:rgba(black, .8);
+        background:rgba(white, .95);
         padding:3px 8px;
         .form-group {
             width:60%;
@@ -514,7 +521,7 @@ section.main {
                 margin-top:-10px;
                 font-size:20px;
                 opacity:.5;
-                color:$grey-color-light;
+                color:$grey-color;
             }
         }
         .form-control {
@@ -578,10 +585,14 @@ section.main {
             color:white;
         }
     }
+    .playnow-server-title {
+        color:$brand-color;
+        margin-bottom:1rem;
+    }
     .playnow-server {
         border:1px solid rgba($brand-color, .3);
-        color:lighten($brand-color, 15%);
-        font-weight:300;
+        color:$grey-color;
+        font-weight:700;
         font-size:1.1rem;
         display:inline-block;
         padding:.3rem 1.3rem;
