@@ -204,9 +204,16 @@ section.main {
  * Site header
  */
 .site-header {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: pixelated;
   background: url("/images/frame.png"), url("/images/bitquest-map-lg.jpg");
   background-size: cover, cover;
   background-position: center;
+  background-attachment: fixed;
   color: white; }
   .site-header .navbar-brand {
     width: 100%;
@@ -290,14 +297,7 @@ section.main {
   font-weight: 300;
   line-height: 1.3;
   padding: 2rem 0 3rem;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
-  /* IE6-9 */ }
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */ }
   .features .feat {
     margin-bottom: 1.6rem; }
   .features .feat-image {
@@ -558,15 +558,12 @@ section.main {
 
 .playnow {
   font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 1.5rem;
-  border: 4px solid rgba(119, 119, 119, 0.4);
-  border-radius: 2px;
-  background: url("/images/bg.gif");
-  color: rgba(255, 255, 255, 0.7); }
+  padding: 3rem 0; }
+  .playnow .container {
+    padding: 0 7vw; }
   .playnow .playnow-title {
     border-bottom: 1px solid rgba(119, 119, 119, 0.2);
-    margin-bottom: 1rem;
-    color: white; }
+    margin-bottom: 1rem; }
     .playnow .playnow-title img {
       float: left;
       margin-right: 15px; }

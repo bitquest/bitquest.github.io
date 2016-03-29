@@ -7,16 +7,43 @@
 		
 		{% include header-landing.html %}
 		
-		<section class="main">
-	      <div class="container-fluid">
-	        <div class="content col-md-7">
-	          {{ content }}
-	        </div>
-	        <div class="sidebar col-md-5">
-	        	{% include playnow.html %}
-	        </div>
-	      </div>  
+		{% include playnow.html %}
+
+	    <section class="blog">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-md-8 col-md-offset-2">
+	    				{{ content }}
+	    			</div>
+	    		</div>
+	    	</div>
 	    </section>
+
+	    <div class="row features">
+			<div class="container">
+				<div class="feat col-md-4">
+					<img class="img-responsive img-circle feat-image" src="images/bank.jpg">
+					<div class="feat-desc">
+						<h2 class="feat-title">Bits</h2>
+						<p>The currency on this server are the Bits. <strong>A bit is a fraction of a Bitcoin (1/1000000)</strong> that you can obtain by killing monsters, trading with users or transfering from an outside wallet. All of it is stored on a <strong>standard Bitcoin wallet on the Blockchain</strong>.</p>
+					</div>
+			 	</div>
+			 	<div class="feat col-md-4">
+					<img class="img-responsive img-circle feat-image" src="images/level.jpg">
+					<div class="feat-desc">
+						<h2 class="feat-title">Level System</h2>
+						<p>The level system is different that in a vanilla server. <strong>You gather experience from killing mobs and is never lost</strong>. Your XP allows you to become stronger and gain extra health. Mobs also have levels and special abilities specially in dungeons and dangerous areas.</p>
+					</div>
+			 	</div>
+			 	<div class="feat col-md-4">
+					<img class="img-responsive img-circle feat-image" src="images/fun.jpg">
+					<div class="feat-desc">
+						<h2 class="feat-title">Fun</h2>
+						<p>The server is made having the concept of fun in it. <strong>Bots and AFK farming is strictly banned</strong>, and there are hidden bosses and dungeons.</p>
+					</div>
+			 	</div>
+			</div>
+	 	</div>
 
 		{% include footer.html %}
 	
