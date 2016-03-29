@@ -619,6 +619,25 @@ section.main {
 .breadcrumb {
   background: transparent; }
 
+.latest-posts {
+  padding-bottom: 3rem; }
+  .latest-posts > h4 {
+    background: #333;
+    color: white;
+    padding: .5rem 1rem;
+    display: inline-block; }
+  .latest-posts .post-list {
+    margin-bottom: 0; }
+    .latest-posts .post-list .post {
+      border-top: none;
+      padding-bottom: 0;
+      padding-top: 0;
+      margin: 0; }
+    .latest-posts .post-list .post-title {
+      font-size: 30.4px; }
+    .latest-posts .post-list p {
+      font-size: 16px; }
+
 /**
  * Syntax highlighting styles
  */

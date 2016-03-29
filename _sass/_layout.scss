@@ -600,3 +600,30 @@ section.main {
 .breadcrumb {
     background:transparent;
 }
+
+.latest-posts {
+    padding-bottom:3rem;
+    > h4 {
+        background:#333;
+        color:white;
+        padding:.5rem 1rem;
+        display:inline-block;
+    }
+    .post-list {
+        margin-bottom:0;
+        .post {
+            border-top:none;
+            padding-bottom:0;
+            padding-top:0;
+            margin:0;
+        }
+        .post-title {
+            font-size: $base-font-size * 1.6; 
+        }
+        p {
+            font-size:16px;
+        }
+    }
+}
+
+
