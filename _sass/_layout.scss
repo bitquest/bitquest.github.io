@@ -50,6 +50,7 @@ section.main {
     background-position:center;
     background-attachment: fixed;
     color:white;
+    padding:2rem 0;
     .navbar-brand {
         width:100%;
         text-align:center;
@@ -89,6 +90,11 @@ section.main {
     }
     .btn {
         margin:5rem 0;
+        border-radius:.1rem;
+        padding:1rem 3rem;
+        font-size:1.5rem;
+        box-shadow:0 1px 3px rgba(black, .5);
+        text-shadow:0 1px 1px rgba(black, .2);
     }
     .navbar-nav {
         @extend %flex-container;
