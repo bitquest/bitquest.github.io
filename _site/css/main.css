@@ -210,9 +210,9 @@ section.main {
   image-rendering: -o-crisp-edges;
   -ms-interpolation-mode: nearest-neighbor;
       image-rendering: pixelated;
-  background: url("/images/frame.png"), url("/images/bitquest-map-lg.jpg");
+  background: url("/images/frame.png"), url("http://minimap.bitquest.co/shot.jpg");
   background-size: cover, cover;
-  background-position: center;
+  background-position: center, top;
   background-attachment: fixed;
   color: white;
   padding: 2rem 0; }

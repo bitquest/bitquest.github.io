@@ -45,9 +45,9 @@ section.main {
   	image-rendering: -moz-crisp-edges; // Firefox 3.6+
   	image-rendering: -o-crisp-edges; // Opera 12
   	image-rendering: pixelated; // Chrome 41+ and Opera 26+
-    background:url('/images/frame.png'), url('/images/bitquest-map-lg.jpg');
+    background:url('/images/frame.png'), url('http://minimap.bitquest.co/shot.jpg');
     background-size:cover, cover;
-    background-position:center;
+    background-position:center, top;
     background-attachment: fixed;
     color:white;
     padding:2rem 0;
