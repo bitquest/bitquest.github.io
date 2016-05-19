@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "BitQuest 2"
+date:   2015-12-21 17:17:00 -0300
+author: "explodi"
+---
+
 Hi people,
 
 I am very proud to announce that the new BitQuest, version 2.0 is finished. The goal of this release is to make the integration of Bitcoin into Minecraft simple enough to maintain it, open and hackable. I am sure this is far from perfect, but it's excellent work by the BitQuest community and the BitQuest open source project.

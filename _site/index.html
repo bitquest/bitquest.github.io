@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	
-	<head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,43 +25,42 @@
   
   <!-- FAVICON -->
   <link rel="shortcut icon" href="/images/favicon.ico" >
+  
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50933804-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 
-	<body>
-		
-		<header class="site-header landing-header">
+<body>
+	
+	<header class="site-header landing-header">
 	<div class="container">
-		<div class="row">
-	    <div class="col-lg-12">
-	      <!-- <ul class="nav navbar-nav">
-	        
-	           
-	              <li class="nav-item">
-	                 <a class="nav-link" href="/about/">About</a>
-	              </li>
-	           
-	        
-	           
-	        
-	           
-	        
-	           
-	        
-	           
-	        
-	        <li class="nav-item">
-	           <a href="https://github.com/bitquest" class="nav-link" target="_blank">Github</a>
-	        </li>
-	        <li class="nav-item">
-	           <a href="https://www.reddit.com/r/bitquest/wiki/index" class="nav-link" target="_blank">Wiki</a>
-	        </li>
-	        <li class="nav-item">
-	           <a href="https://www.reddit.com/r/bitquest" class="nav-link" target="_blank">Community</a>
-	        </li>
-	      </ul> -->
-	    </div>
-	 	</div>
 
 		<a class="navbar-brand" href="/">
 			<img src="/images/bitquest-logo.png" alt="The server that runs on Bitcoin!">
@@ -69,15 +68,77 @@
 						
 		<div class="navbar-txt">
 			<h1 class="txt">Welcome to the first <strong>Minecraft</strong> Server with a <strong>Bitcoin</strong> denominated monetary system.</h1>
+			<div class="connectandplay">
+				<!-- <h5 class="cta">Connect to the BitQuest Server</h5> -->
+				<div class="box">Connect to <span>play.bitquest.co</span></div>
+				<span class="info">Using Minecraft 1.9 for PC, Mac or Linux</span>
+			</div>
+			<!-- <a href="#howtoplay" class="btn btn-primary btn-lg"><strong>HOW TO PLAY</strong></a> -->
 		</div>			
 	</div>
-	<div class="row features">
+	
+</header>
+	
+	<!-- <section class="playnow" id="howtoplay">
+	<div class="container">
+		<div class="text-center">
+			<h1>Connect to the BitQuest Server</h1>
+		</div>
+		<div class="row step step-1">
+			<div class="playnow-title">
+				<div class="step-bullet">1</div>
+				<h3><strong>Get Minecraft 1.9</strong> Create an account and install the latest version</h3>
+			</div>
+			<p>Note: currently we support only the PC/Mac/linux Minecraft</p>
+		</div>
+
+		<div class="row step step-2">
+			<div class="playnow-title">
+				<div class="step-bullet">2</div>
+				<h3><strong>Connect to a BitQuest Server</strong>
+				</h3>
+			</div>
+			
+			<div class="col-md-12 server-info">
+				<div class="col-sm-4">
+					<h5 class="playnow-server-title">Classic server</h5>
+			      	<div class="playnow-server">
+			      		play.bitquest.co
+			      	</div>
+		      	</div>
+		      	<div class="col-sm-4">
+			      	<h5 class="playnow-server-title">Beta server</h5>
+			      	<div class="playnow-server">
+			      		beta.bitquest.co
+			      	</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="row step step-3">
+			<div class="playnow-title">
+				<div class="step-bullet">3</div>
+				<h3><strong>Read the Documentation</strong></h3>
+			</div>
+			<p><a href="http://wiki.bitquest.co/index.php/Main_Page">The BitQuest wiki</a> is a great place to learn more about the server, including <a href="http://wiki.bitquest.co/index.php/Loot">earning bitcoin</a>, <a href="http://wiki.bitquest.co/index.php?title=Owning_land&action=edit&redlink=1">how to claim land</a>, and of course <a href="http://wiki.bitquest.co/index.php?title=Rules_of_the_server&action=edit&redlink=1">the rules of the server</a>.</p>
+		</div>
+
+		
+	        
+	</div>
+</section> -->
+	
+	<div class="features">
+		<div class="text-center">
+			<h1>Bitquest Features</h1>
+		</div>
 		<div class="container">
 			<div class="feat col-md-4">
 				<img class="img-responsive img-circle feat-image" src="images/bank.jpg">
 				<div class="feat-desc">
 					<h2 class="feat-title">Bits</h2>
-					<p>The currency on this server are the Bits. <strong>A bit is a fraction of a Bitcoin (1/10000)</strong> that you can obtain by killing monsters, trading with users or transfering from an outside wallet. All of it is stored on a <strong>standard Bitcoin wallet on the Blockchain</strong>.</p>
+					<p>The currency on this server are the Bits. <strong>A bit is a fraction of a Bitcoin (1/1000000)</strong> that you can obtain by killing monsters, trading with users or transfering from an outside wallet. All of it is stored on a <strong>standard Bitcoin wallet on the Blockchain</strong>.</p>
 				</div>
 		 	</div>
 		 	<div class="feat col-md-4">
@@ -96,25 +157,24 @@
 		 	</div>
 		</div>
  	</div>
-</header>
-		
-		<section class="main">
-	      <div class="container-fluid">
-	        <div class="content col-md-7">
-	          <section class="latest-posts">
+
+    <section class="blog">
+    	<div class="container">
+    		
+    		<section class="latest-posts">
   <h4>Latests Posts</h4>
-  <ul class="post-list">
+  <ul class="post-list col-md-12">
     
-      <li class="post">
-        <span class="post-meta">May 19, 2016</span>
+      <li class="post col-md-6">
+        <span class="post-meta">Dec 21, 2015</span>
         <h3 class="post-title">
-          <a class="post-link" href="/2016/05/19/bitquest-2.html">Bitquest 2</a>
+          <a class="post-link" href="/2015/12/21/bitquest-2.html">BitQuest 2</a>
         </h3>
         <p>Hi people, I am very proud to announce that the new BitQuest, version 2.0 is finished. The goal of this release is to make the integration of Bitcoin into Minecraft simple enough to...</p>
-        <p><a href="/2016/05/19/bitquest-2.html">&raquo; View more</a></p>
+        <p><a href="/2015/12/21/bitquest-2.html">&raquo; View more</a></p>
       </li>
     
-      <li class="post">
+      <li class="post col-md-6">
         <span class="post-meta">Dec 21, 2015</span>
         <h3 class="post-title">
           <a class="post-link" href="/2015/12/21/welcome-to-the-bitquest-2.0.html">BitQuest is now Open Source</a>
@@ -123,60 +183,37 @@
         <p><a href="/2015/12/21/welcome-to-the-bitquest-2.0.html">&raquo; View more</a></p>
       </li>
     
-    <a href="/blog" class="btn btn-info">&raquo; Bitquest development blog</a>
   </ul>
+  <div class="row text-center">
+    <a href="/blog" class="btn btn-info">&raquo; Bitquest development blog</a>
+  </div>
 </section>
 
-	        </div>
-	        <div class="sidebar col-md-5">
-	        	<div class="playnow">
-	<div class="playnow-title">
-		<img src="/images/minecraft-icon.png" alt="minecraft icon">
-		<h3><strong>The Minecraft Server</strong> that runs on Bitcoin</h3>
-	</div>
-	<p>Bitquest is a "Survival" style Minecraft server with a Bitcoin-denominated economy.  Players can buy, sell and trade items using BTC micropayments with a fully funcional Bitcoin wallet you can send money to/from.</p>
-	<p>To start playing, Connect to the following address using the Desktop Version of Minecraft:</p>
-        
-	<div class="row">
-		<div class="col-sm-6">
-			<h5>Classic server</h5>
-	      	<div class="playnow-server">
-	      		play.bitquest.co
-	      	</div>
-      	</div>
-		<div class="col-sm-6">
-	      	<h5>Beta server</h5>
-	      	<div class="playnow-server">
-	      		beta.bitquest.co
-	      	</div>
-		</div>
-		<div class="col-md-12 how-to-play">
-			<h4>How to play</h4>
-			<ul>
-	          <li class="nav-item">
-	             <a href="https://www.reddit.com/r/bitquest/comments/2qlzt8/a_guide_to_all_things_bitquest/" class="nav-link" target="_blank">A Guide to All things BitQuest</a>
-	          </li>
-	          <li class="nav-item">
-	             <a href="https://www.reddit.com/r/bitquest/wiki/index" class="nav-link" target="_blank">Official wiki</a>
-	          </li>
-	       </ul>
-		</div>
-	</div>
-</div>
-	        </div>
-	      </div>  
-	    </section>
+    			
+    	</div>
+    </section>
 
-		<footer class="site-footer ground">
 
+	<footer class="site-footer ground">
   <div class="container">
-
-    <h2 class="footer-heading"></h2>
-
+    <!-- <h2 class="footer-heading">More info</h2> -->
     <div class="row">
+      
+      <div class="col-sm-4">
+        <h4>More info</h4>
+        <ul class="more-links">
+              <li class="nav-item">
+                 <a href="http://map.bitquest.co" class="nav-link" target="_blank">World map</a>
+              </li>
+              <li class="nav-item">
+                 <a href="https://www.reddit.com/r/bitquest/wiki/index" class="nav-link" target="_blank">Official wiki</a>
+              </li>
 
-      <div class="col-md-8">
-        
+           </ul>
+      </div>
+
+      <div class="col-sm-4">
+        <h4>Bitquest communities</h4>
         <ul class="social-media-list hr">
           
           <li>
@@ -212,17 +249,14 @@
           
         </ul>
 
-        <ul class="contact-list">
-          <li>BitQuest - The server that runs on Bitcoin!</li>
-          <li><a href="mailto:bitquest@bitquest.co">bitquest@bitquest.co</a></li>
-        </ul>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
+        <h4>Subscribe to the newsletter</h4>
         <div class="newsletter-box">
-           <span class="cta text-right">
-              Subscribe to the newsletter
-           </span>
+             <!-- <span class="cta text-right">
+                Subscribe to the newsletter
+             </span> -->
            <form action="//mego.us3.list-manage.com/subscribe/post?u=7c90b54eab70fb25447d1be65&amp;id=457e8dd34d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="" class="form-inline validate">
               <div class="form-group">
                  <i class="mdi mdi-email-outline"></i>
@@ -235,14 +269,23 @@
       </div>
     </div>
 
-  </div>
+    <div class="col-md-12 text-center">
+      <ul class="contact-list">
+        <li>BitQuest - The server that runs on Bitcoin!</li>
+        <li><a href="mailto:bitquest@bitquest.co">bitquest@bitquest.co</a></li>
+      </ul>
+    </div>
 
+  </div>
 </footer>
 
-	
-		<!-- JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
-	</body>
+
+	<!-- JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+</body>
 
 </html>
+<script type="text/javascript">
+	mixpanel.track("Pageview");
+</script>
