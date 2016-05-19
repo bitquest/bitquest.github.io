@@ -6,9 +6,74 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Dec 2015 11:44:17 -0300</pubDate>
-    <lastBuildDate>Fri, 25 Dec 2015 11:44:17 -0300</lastBuildDate>
+    <pubDate>Thu, 19 May 2016 18:56:10 -0400</pubDate>
+    <lastBuildDate>Thu, 19 May 2016 18:56:10 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Bitquest 2</title>
+        <description>&lt;p&gt;Hi people,&lt;/p&gt;
+
+&lt;p&gt;I am very proud to announce that the new BitQuest, version 2.0 is finished. The goal of this release is to make the integration of Bitcoin into Minecraft simple enough to maintain it, open and hackable. I am sure this is far from perfect, but it’s excellent work by the BitQuest community and the BitQuest open source project.&lt;/p&gt;
+
+&lt;p&gt;Let’s go ahead and tell you what’s new and what’s different!&lt;/p&gt;
+
+&lt;h2 id=&quot;on-chain-wallets&quot;&gt;On-Chain wallets&lt;/h2&gt;
+&lt;p&gt;Wallets, once a database-backed object to account for each player’s transactions is now a standard, on-chain Bitcoin wallet.&lt;/p&gt;
+
+&lt;p&gt;What does this mean?&lt;/p&gt;
+
+&lt;p&gt;Before 2.0, we were accounting player’s balance just like any other game: A collection of records in a database of debits and credits, and balances. The good side of this, is we can handle a huge amount of transactions, because we didn’t need to upload every one to the Blockchain, which is induces fees and confirmation time.&lt;/p&gt;
+
+&lt;p&gt;The problem with this solution is that we have to keep track of every transaction, secure and segregate wallets, and produce checks for potencial duplications.&lt;/p&gt;
+
+&lt;p&gt;Using transactions on-chain, all the information about the server economy is out there in the open for everyone to account for where the money is being taken (more on that later).&lt;/p&gt;
+
+&lt;p&gt;An on-chain wallet also means we can enable player-to-player transactions without the server being the middleman.&lt;/p&gt;
+
+&lt;p&gt;For now the transactions are a little slowe, there’s a limit on how many we can do and sometimes you have to wait confirmation times to spend again, but we know this will change soon with the future Bitcoin innovations!&lt;/p&gt;
+
+&lt;h2 id=&quot;land-ownership-is-paid&quot;&gt;Land Ownership is Paid&lt;/h2&gt;
+&lt;p&gt;In the past BitQuest, land was free but ubiquitous. So many players claimed plots and never got back, leaving construction projects unfinished and deadly traps while also, the community was growing and server space shrinking.&lt;/p&gt;
+
+&lt;p&gt;In this new version, land “chunk” of 64x64 blocks is sold at 200 bits. This transaction goes straight to the server owners and supporting the administrators.&lt;/p&gt;
+
+&lt;p&gt;You can claim contiguous chunks to make big areas, even cities!&lt;/p&gt;
+
+&lt;h2 id=&quot;bitquest-is-also-a-plugin&quot;&gt;BitQuest is also a plugin&lt;/h2&gt;
+&lt;p&gt;The project was re-written from scratch as a plug-in just because a single, but very important goal: To allow people to make their own Minecraft Bitcoin servers. It matches the latest &lt;a href=&quot;http://spigotmc.com&quot;&gt;Spigot&lt;/a&gt; API and compatible with Mac/PC/Linux vanilla Minecraft.&lt;/p&gt;
+
+&lt;p&gt;In the near future there’ll be a configurable JAR release in line with last stable BitQuest. This will allow anyone start a Minecraft Bitcoin server with minimum configuration. We hope this attracts collaborators as well expand the Bitcoin gaming universe.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-bitquest-market-20&quot;&gt;The BitQuest Market 2.0&lt;/h2&gt;
+&lt;p&gt;In BitQuest, you can buy valuable stuff with Bitcoin, like food or the latest Elytra wings. Each comes at a different price, though. But the interesting part is what happens to the Bitcoin spent in items!&lt;/p&gt;
+
+&lt;p&gt;All Market transactions go to a “Loot” wallet. Each time a monster is killed, a small number of calculations (and luck) might substract 200 bits from that wallet directly to yours, a small reward for your braveness. If you choose to spend that money again inside the Market, it will go back to loot wallet, rewarding another player.&lt;/p&gt;
+
+&lt;p&gt;You might think everyone sends their hard earned loot outside the game, but a staggering 45% spends it back in the game market!&lt;/p&gt;
+
+&lt;h2 id=&quot;open-source&quot;&gt;Open Source&lt;/h2&gt;
+&lt;p&gt;We believe that inside the next generation of virtual worlds, money will be an inter-operable, open, transparent asset backed by the Blockchain, like Bitcoin. A game money we can spend outside a specific world, perhaps in other games.&lt;/p&gt;
+
+&lt;p&gt;Assets bought inside video games, like weapons or land ownership should be stored on the blockchain, and players must have freedom to sell or barter those assets inside or outside the system without restrictions or fees, just like any real world stuff you buy.&lt;/p&gt;
+
+&lt;p&gt;There is so much work to do and BitQuest is just a tiny fraction. This release would be impossible without the help of Airiellis, Burntone, &lt;a href=&quot;https://github.com/Xeyler&quot;&gt;Xeyler&lt;/a&gt;, &lt;a href=&quot;https://github.com/juanj&quot;&gt;juanj&lt;/a&gt;, &lt;a href=&quot;https://github.com/RagingMouser&quot;&gt;RagingMouser&lt;/a&gt; and everyone on the BitQuest slack team.&lt;/p&gt;
+
+&lt;p&gt;Since 2.0 and from now on we are open source: &lt;a href=&quot;https://github.com/bitquest/bitquest&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Or if you want to help develop BitQuest even further, your donations are appreciated:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://chart.googleapis.com/chart?chs=300x300&amp;amp;cht=qr&amp;amp;chl=bitcoin:3A1hmUUqCUV7SdftvVpWc8jQ3xmGqBPGeZ&quot; alt=&quot;3A1hmUUqCUV7SdftvVpWc8jQ3xmGqBPGeZ&quot; /&gt;
+3A1hmUUqCUV7SdftvVpWc8jQ3xmGqBPGeZ&lt;/p&gt;
+
+&lt;p&gt;Thanks for playing!!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 May 2016 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/2016/05/19/bitquest-2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/05/19/bitquest-2.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>BitQuest is now Open Source</title>
