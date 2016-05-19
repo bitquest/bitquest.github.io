@@ -56,7 +56,7 @@ We believe that inside the next generation of virtual worlds, money will be an i
 
 Assets bought inside video games, like weapons or land ownership should be stored on the blockchain, and players must have freedom to sell or barter those assets inside or outside the system without restrictions or fees, just like any real world stuff you buy.
 
-There is so much work to do and BitQuest is just a tiny fraction. This release would be impossible without the help of Airiellis, Burntone, [Xeyler](https://github.com/Xeyler), [juanj](https://github.com/juanj), [RagingMouser](https://github.com/RagingMouser) and everyone on the BitQuest slack team.
+There is so much work to do and BitQuest is just a tiny fraction. This release would be impossible without the help of [Airiellis](https://twitter.com/shallonhackenb1), Burntone, [Xeyler](https://github.com/Xeyler), [juanj](https://github.com/juanj), [RagingMouser](https://github.com/RagingMouser) and everyone on the BitQuest slack team.
 
 Since 2.0 and from now on we are open source: [Github repo](https://github.com/bitquest/bitquest)
 
