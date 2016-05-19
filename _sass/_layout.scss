@@ -28,7 +28,7 @@ section.main {
     background:url('/images/earth-bg.png'), url('/images/bg.gif');
     background-repeat:repeat-x, repeat;
     background-size:30px auto, auto;
-    padding:3rem 0 2rem !important;
+    padding:5rem 0 0 !important;
 }
 %flex-container {
     display:flex;
@@ -40,10 +40,17 @@ section.main {
  * Site header
  */
 .site-header {
-    background:url('/images/frame.png'), url('/images/bitquest-map-lg.jpg');
+	image-rendering: -webkit-optimize-contrast; // Safari 6, UC Browser 9.9
+  	image-rendering: -webkit-crisp-edges; // Safari 7+
+  	image-rendering: -moz-crisp-edges; // Firefox 3.6+
+  	image-rendering: -o-crisp-edges; // Opera 12
+  	image-rendering: pixelated; // Chrome 41+ and Opera 26+
+    background:url('/images/frame.png'), url('http://minimap.bitquest.co/shot.jpg');
     background-size:cover, cover;
-    background-position:center;
+    background-position:center, top;
+    background-attachment: fixed;
     color:white;
+    padding:2rem 0;
     .navbar-brand {
         width:100%;
         text-align:center;
@@ -71,6 +78,7 @@ section.main {
         .txt {
             font-size:2.4rem;
             margin:0;
+            text-shadow:0 1px 3px rgba(black, .5);
             strong {
                 color:$brand-color;
             }
@@ -79,6 +87,50 @@ section.main {
             .txt {
                 font-size:1.6rem;
             }
+        }
+    }
+    .btn {
+        margin:5rem 0;
+        border-radius:.1rem;
+        padding:1rem 3rem;
+        font-size:1.5rem;
+        box-shadow:0 1px 3px rgba(black, .5);
+        text-shadow:0 1px 1px rgba(black, .2);
+    }
+    .connectandplay {
+        margin:5rem auto;
+        border-radius:.25rem;
+        padding:1.7rem 2rem 1.4rem;
+        font-size:1.5rem;
+        box-shadow:0 1px 3px rgba(black, .5);
+        max-width:400px;
+        width:100%;
+        background-color:$brand-color;
+        color:rgba(black, .55);
+        .cta {
+            margin:0 0 .4rem;
+            width:100%;
+            text-shadow:0 1px 1px rgba(black, .2);
+        }
+        .box {
+            border-top:1px solid lighten($brand-color, 20%);
+            border-bottom:1px solid lighten($brand-color, 20%);
+            background:rgba(black, .1);
+            padding:.3rem 1rem;
+            font-weight:700;
+            // max-width:70%;
+            
+            margin:0 auto;
+            span {
+                color:white;
+                text-transform:uppercase;
+            }
+        }
+        .info {
+            margin:.3rem 0 0;
+            font-size:.7em;
+            width:100%;
+            clear: both;
         }
     }
     .navbar-nav {
@@ -107,12 +159,6 @@ section.main {
             .nav-item {
                 font-size:12px;
             }
-        }
-    }
-    .newsletter-box {
-        @include media-query($bs-custom) {
-            width:70% !important;
-            margin:1rem auto;
         }
     }
     &.simple-header {
@@ -147,12 +193,12 @@ section.main {
     text-align:center;
     font-weight:300;
     line-height:1.3;
-    padding:2rem 0 3rem;
+    padding:4rem 0 3rem;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
-    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+    // background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+    // background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    // background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
     .feat {
         // @extend %flex-container;
         // flex-wrap:wrap;
@@ -170,12 +216,13 @@ section.main {
     .feat-desc {
         .feat-title {
             color:lighten($brand-color, 15%);
-            margin:1rem 0;
+            margin:2rem 0 1rem;
         }
         p {
             // background:rgba(black, .3);
             padding:.3rem;
-            font-size:1rem;
+            font-size:.9rem;
+            line-height:1.5em;
         }
     }
     @include media-query($tablet-sm) {
@@ -294,19 +341,30 @@ section.main {
         display: inline-block;
         height:32px;
         line-height:32px;
-        color:white;
     }
 }
 .social-media-list {
     &.hr {
         li {
-            margin-right:7px;
-            display:inline-block;
-            vertical-align:top;
+            
         }
     }
 }
-
+ul {
+    li {
+        margin:1rem 0 0;
+        a {
+            color:white;
+            &:hover {
+                color:lighten($brand-color, 10%);
+            }
+        }
+    }
+}
+.contact-list {
+    padding-top:2rem;
+    border-top:1px solid rgba(white, .2);
+}
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
@@ -468,6 +526,12 @@ section.main {
     }
 }
 
+.more-links {
+    list-style:none;
+    margin:0;
+    padding:0;
+    li {}
+}
 
 .newsletter-box {
     font-family: $headings-font-family;
@@ -478,10 +542,10 @@ section.main {
         font-size:15px;
         line-height:$cta-h;
         display:block;
-        bottom:-$cta-h + -2px;
-        left:0;
-        width:100%;
-        position: absolute;
+        // bottom:-$cta-h + -2px;
+        // left:0;
+        // width:100%;
+        // position: absolute;
         padding:0 .5rem;
         color:$grey-color-light;
         @include media-query($on-palm) {
@@ -492,7 +556,7 @@ section.main {
         display:flex;
         justify-content:space-between;
         align-items:center;
-        background:rgba(black, .8);
+        background:rgba(white, .95);
         padding:3px 8px;
         .form-group {
             width:60%;
@@ -505,7 +569,7 @@ section.main {
                 margin-top:-10px;
                 font-size:20px;
                 opacity:.5;
-                color:$grey-color-light;
+                color:$grey-color;
             }
         }
         .form-control {
@@ -523,15 +587,18 @@ section.main {
 
 .playnow {
     font-family: $headings-font-family;
-    padding:1.5rem;
-    border:4px solid rgba($grey-color, .4);
-    border-radius:2px;
-    background:url('/images/bg.gif');
-    color:rgba(white, .7);
+    padding:3rem 0;
+    .container {
+        padding:0 7vw;
+    }
+    // border:4px solid rgba($grey-color, .4);
+    // border-radius:2px;
+    // background:url('/images/bg.gif');
+    // color:rgba(white, .7);
     .playnow-title {
         border-bottom:1px solid rgba($grey-color, .2);
         margin-bottom:1rem;
-        color:white;
+        // color:white;
         img {
             float: left;
             margin-right:15px;
@@ -550,13 +617,38 @@ section.main {
         font-family: $base-font-family;
         font-size: 14px;
     }
+    .step {
+        padding:1rem 1rem 3rem;
+        .step-bullet {
+            width:60px;
+            height:60px;
+            float: left;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:url(/images/step-bullet.svg) no-repeat center;
+            background-size:cover;
+            margin-right:1rem;
+            font-weight:700;
+            font-size:26px;
+            color:white;
+            text-shadow:1px 1px 0 rgba(darken($brand-color, 35%), .3);
+        }
+    }
+    .playnow-server-title {
+        color:$brand-color;
+        margin-bottom:1rem;
+    }
     .playnow-server {
         border:1px solid rgba($brand-color, .3);
-        color:lighten($brand-color, 15%);
-        font-weight:300;
+        color:$grey-color;
+        font-weight:700;
         font-size:1.1rem;
         display:inline-block;
         padding:.3rem 1.3rem;
+    }
+    .server-info {
+        padding:2rem;
     }
     .how-to-play {
         padding:1rem 1rem 0;
@@ -569,3 +661,30 @@ section.main {
 .breadcrumb {
     background:transparent;
 }
+
+.latest-posts {
+    padding-bottom:3rem;
+    > h4 {
+        background:#333;
+        color:white;
+        padding:.5rem 1rem;
+        display:inline-block;
+    }
+    .post-list {
+        margin-bottom:0;
+        .post {
+            border-top:none;
+            padding-bottom:0;
+            padding-top:0;
+            margin:0;
+        }
+        .post-title {
+            font-size: $base-font-size * 1.6; 
+        }
+        p {
+            font-size:16px;
+        }
+    }
+}
+
+
