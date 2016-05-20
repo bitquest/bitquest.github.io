@@ -61,12 +61,15 @@ In this new version, a land "chunk" of 16x16 blocks can be bought at the price o
 
 You can claim contiguous chunks to make big areas, even cities!
 
+---
+
 BitQuest is also a plugin
 ----------------------
 While you can play BitQuest in [the official server](http://bitquest.co), the project was re-written from scratch as a plug-in just because a single, but very important goal: To allow anyone to make their own Minecraft Bitcoin servers. It matches the latest [Spigot](http://spigotmc.com) API and compatible with Mac/PC/Linux vanilla Minecraft. 
 
 For now, it's a little rough and undocumented but very soon we'll have JAR and Docker Image in line with last stable BitQuest for deployment with minimum configuration. We hope this attracts collaborators as well expand the Bitcoin gaming universe.
 
+---
 
 Open Source
 ------------------------------------
