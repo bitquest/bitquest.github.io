@@ -39,7 +39,7 @@ Land Ownership is Paid
 ------------------------------------------------
 In the past BitQuest, land was free but ubiquitous. So many players claimed plots and never got back, leaving construction projects unfinished and deadly traps; Also, the community was growing and server space shrinking.
 
-In this new version, a land "chunk" of 64x64 blocks can be bought at the price of 200 bits (or 0.0002BTC); This transaction goes straight to the administrator as a donation for server maintenance.
+In this new version, a land "chunk" of 64x64 blocks can be bought at the price of 200 bits (or 0.0002BTC); This transaction goes straight to the administrator as a contribution for server maintenance.
 
 You can claim contiguous chunks to make big areas, even cities!
 
