@@ -20,7 +20,7 @@ Before 2.0, we were accounting player's balance 'off chain': A database of debit
 
 The problem with that solution is that we have to keep track of every transaction, secure and segregate wallets, and produce checks for potencial duplications. 
 
-We now use "on chain" transactions, which means everything is uploaded to the Bloackchain and all the information about the server economy is out there in the open for everyone to account for where the is, and where it goes (more on that later). 
+We now use "on chain" transactions, which means everything is uploaded to the Blockchain and all the information about the server economy is out there in the open for everyone to account for where the is, and where it goes (more on that later). 
 
 Having an on chain wallet also means you can do player-to-player transactions without the server being the middleman.
 
