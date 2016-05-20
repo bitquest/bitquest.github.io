@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 May 2016 21:51:26 -0400</pubDate>
-    <lastBuildDate>Thu, 19 May 2016 21:51:26 -0400</lastBuildDate>
+    <pubDate>Thu, 19 May 2016 21:52:22 -0400</pubDate>
+    <lastBuildDate>Thu, 19 May 2016 21:52:22 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -49,7 +49,7 @@ https://blockchain.info/address/1BiWdDaHChaKTcNXWs3nxPRcxb6CHM5h2u
 
 &lt;p&gt;In the past BitQuest, land was free but ubiquitous. So many players claimed plots and never got back, leaving construction projects unfinished and deadly traps; Also, the community was growing and server space shrinking.&lt;/p&gt;
 
-&lt;p&gt;In this new version, a land “chunk” of 64x64 blocks can be bought at the price of 200 bits (or 0.0002BTC); This transaction goes straight to the administrator as a contribution for server maintenance.&lt;/p&gt;
+&lt;p&gt;In this new version, a land “chunk” of 16x16 blocks can be bought at the price of 200 bits (or 0.0002BTC); This transaction goes straight to the administrator as a contribution for server maintenance.&lt;/p&gt;
 
 &lt;p&gt;You can claim contiguous chunks to make big areas, even cities!&lt;/p&gt;
 
