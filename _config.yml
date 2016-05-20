@@ -13,7 +13,7 @@ description: >
   To start playing, Connect to the following address using the PC Version of Minecraft:
   play.bitquest.co
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://bitquest.co" # the base hostname & protocol for your site
 twitter_username: bitquestmc
 github_username:  bitquest
 facebook_username:  BitQuestMC

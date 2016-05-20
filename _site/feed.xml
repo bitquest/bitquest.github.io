@@ -6,15 +6,15 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 May 2016 19:00:58 -0400</pubDate>
-    <lastBuildDate>Thu, 19 May 2016 19:00:58 -0400</lastBuildDate>
+    <pubDate>Fri, 20 May 2016 01:08:48 -0300</pubDate>
+    <lastBuildDate>Fri, 20 May 2016 01:08:48 -0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>BitQuest 2</title>
         <description>&lt;p&gt;Hi people,&lt;/p&gt;
 
-&lt;p&gt;I am very proud to announce that the new BitQuest, version 2.0 is finished. The goal of this release is to make the integration of Bitcoin into Minecraft simple enough to maintain it, open and hackable. I am sure this is far from perfect, but it’s excellent work by the BitQuest community and the BitQuest open source project.&lt;/p&gt;
+&lt;p&gt;The new BitQuest, version 2.0 is finished. The goal of this release is to make the integration of Bitcoin into Minecraft simple enough to maintain it, open and hackable. I am sure this is far from perfect, but it’s excellent work by the BitQuest community and the BitQuest open source project.&lt;/p&gt;
 
 &lt;p&gt;Let’s go ahead and tell you what’s new and what’s different!&lt;/p&gt;
 
@@ -68,9 +68,9 @@
 
 &lt;p&gt;Thanks for playing!!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 21 Dec 2015 17:17:00 -0300</pubDate>
-        <link>http://yourdomain.com/2015/12/21/bitquest-2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/12/21/bitquest-2.html</guid>
+        <pubDate>Thu, 19 May 2016 17:17:00 -0300</pubDate>
+        <link>http://yourdomain.com/2016/05/19/bitquest-2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/05/19/bitquest-2.html</guid>
         
         
       </item>

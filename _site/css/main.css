@@ -542,6 +542,33 @@ ul li {
     line-height: 1.2em; }
   .post-content a, .post-content strong, .post-content em {
     font-weight: 400; }
+  .post-content .post-full-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto; }
+  .post-content .post-side-img {
+    width: 55%;
+    margin: 1rem 0; }
+    .post-content .post-side-img.side-l {
+      margin-right: 1rem;
+      float: left; }
+    .post-content .post-side-img.side-r {
+      float: right;
+      margin-left: 1rem; }
+
+.qr-code-container {
+  width: 100%;
+  max-width: 360px;
+  margin: 1rem auto;
+  border: 1px solid #DDD;
+  text-align: center; }
+  .qr-code-container .qr-code {
+    width: 100%; }
+  .qr-code-container span {
+    font-size: 14px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    display: block; }
 
 .more-links {
   list-style: none;
