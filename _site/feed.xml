@@ -4,10 +4,10 @@
     <title>The server that runs on Bitcoin!</title>
     <description>Bitquest is a Survival style Minecraft server with a Bitcoin-denominated economy: Players can buy, sell and trade items using BTC micropayments with a fully funcional Bitcoin wallet you can send money to/from. To start playing, Connect to the following address using the PC Version of Minecraft: play.bitquest.co
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 May 2016 22:45:39 -0400</pubDate>
-    <lastBuildDate>Thu, 19 May 2016 22:45:39 -0400</lastBuildDate>
+    <link>http://bitquest.co/</link>
+    <atom:link href="http://bitquest.co/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 19 May 2016 22:53:47 -0400</pubDate>
+    <lastBuildDate>Thu, 19 May 2016 22:53:47 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -75,8 +75,8 @@ https://blockchain.info/address/1BiWdDaHChaKTcNXWs3nxPRcxb6CHM5h2u
 &lt;p&gt;Thanks for playing!!&lt;/p&gt;
 </description>
         <pubDate>Thu, 19 May 2016 16:17:00 -0400</pubDate>
-        <link>http://yourdomain.com/2016/05/19/bitquest-2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/05/19/bitquest-2.html</guid>
+        <link>http://bitquest.co/2016/05/19/bitquest-2.html</link>
+        <guid isPermaLink="true">http://bitquest.co/2016/05/19/bitquest-2.html</guid>
         
         
       </item>
@@ -97,8 +97,8 @@ https://blockchain.info/address/1BiWdDaHChaKTcNXWs3nxPRcxb6CHM5h2u
 Merry Christmas!!&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Dec 2015 17:17:00 -0300</pubDate>
-        <link>http://yourdomain.com/2015/12/21/welcome-to-the-bitquest-2.0.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/12/21/welcome-to-the-bitquest-2.0.html</guid>
+        <link>http://bitquest.co/2015/12/21/welcome-to-the-bitquest-2.0.html</link>
+        <guid isPermaLink="true">http://bitquest.co/2015/12/21/welcome-to-the-bitquest-2.0.html</guid>
         
         
       </item>
@@ -128,8 +128,8 @@ Merry Christmas!!&lt;/p&gt;
 &lt;p&gt;Thanks for playing!&lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Dec 2015 17:17:00 -0300</pubDate>
-        <link>http://yourdomain.com/2015/12/07/starting-bitquest-2.0.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/12/07/starting-bitquest-2.0.html</guid>
+        <link>http://bitquest.co/2015/12/07/starting-bitquest-2.0.html</link>
+        <guid isPermaLink="true">http://bitquest.co/2015/12/07/starting-bitquest-2.0.html</guid>
         
         
       </item>
