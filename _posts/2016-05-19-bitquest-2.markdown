@@ -42,11 +42,17 @@ The project was re-written from scratch as a plug-in just because a single, but 
 
 In the near future there'll be a configurable JAR release in line with last stable BitQuest. This will allow anyone start a Minecraft Bitcoin server with minimum configuration. We hope this attracts collaborators as well expand the Bitcoin gaming universe.
 
-The BitQuest Market 2.0
+Markets and Loot
 ----------------------
 In BitQuest, you can buy valuable stuff with Bitcoin, like food or the latest Elytra wings. Each comes at a different price, though. But the interesting part is what happens to the Bitcoin spent in items!
 
-All Market transactions go to a "Loot" wallet. Each time a monster is killed, a small number of calculations (and luck) might substract 200 bits from that wallet directly to yours, a small reward for your braveness. If you choose to spend that money again inside the Market, it will go back to the same loot wallet, rewarding another player.
+All Market transactions go to a "World" wallet. Each time a monster is killed, a small number of calculations (and luck) might substract 200 bits from that wallet directly to yours, a small reward for your braveness. If you choose to spend that money again inside the Market, it will go back to the world wallet, rewarding another player.
+
+Since the transactions are now on-chain, you can look into the world wallet and explore the raw operations of the game economy.
+
+````
+https://blockchain.info/address/1BiWdDaHChaKTcNXWs3nxPRcxb6CHM5h2u
+````
 
 Open Source
 ------------------------------------
