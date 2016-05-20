@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 May 2016 21:52:22 -0400</pubDate>
-    <lastBuildDate>Thu, 19 May 2016 21:52:22 -0400</lastBuildDate>
+    <pubDate>Thu, 19 May 2016 21:54:29 -0400</pubDate>
+    <lastBuildDate>Thu, 19 May 2016 21:54:29 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -25,7 +25,7 @@
 
 &lt;p&gt;The problem with that solution is that we have to keep track of every transaction, secure and segregate wallets, and produce checks for potencial duplications.&lt;/p&gt;
 
-&lt;p&gt;We now use “on chain” transactions, which means everything is uploaded to the Blockchain and all the information about the server economy is out there in the open for everyone to account for where the is, and where it goes (more on that later).&lt;/p&gt;
+&lt;p&gt;We now use “on chain” transactions, which means everything is uploaded to the Blockchain and all the information about the server economy is out there in the open for everyone to account for where the money is, and where it goes (more on that later).&lt;/p&gt;
 
 &lt;p&gt;Having an on chain wallet also means you can do player-to-player transactions without the server being the middleman.&lt;/p&gt;
 
