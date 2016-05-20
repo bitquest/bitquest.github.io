@@ -7,7 +7,7 @@ author: "explodi"
 
 Hi people,
 
-The new BitQuest, version 2.0 is finished. The goal of this release is to make the integration of Bitcoin into Minecraft simple, open, and hackable. I am sure this is far from perfect, but it's excellent work by the BitQuest community and the BitQuest open source project.
+The new BitQuest, version 2.0 is finished. The goal of this release is to make the integration of Bitcoin into Minecraft simple, open, and hackable. I am sure this is far from perfect, but a really fun new way to play Minecraft.
 
 Let's go ahead and tell you what's new and what's different!
 
@@ -17,15 +17,15 @@ Wallets, once a database-backed object to account for each player's transactions
 
 What does this mean?
 
-Before 2.0, we were accounting player's balance just like any other game: A collection of records in a database of debits and credits, and balances. The good side of this, is we can handle a huge amount of transactions, because we didn't need to upload every one to the Blockchain, which is induces fees and confirmation time.
+Before 2.0, we were accounting player's balance 'off chain': A database of debits, credits, and balances. The good side of this, is we can handle a huge amount of transactions, because we didn't need to upload every one of them to the Blockchain, which induces fees and confirmation time.
 
-The problem with this solution is that we have to keep track of every transaction, secure and segregate wallets, and produce checks for potencial duplications. 
+The problem with that solution is that we have to keep track of every transaction, secure and segregate wallets, and produce checks for potencial duplications. 
 
-Using transactions on-chain, all the information about the server economy is out there in the open for everyone to account for where the money is being taken (more on that later). 
+We now use "on chain" transactions, which means everything is uploaded to the Bloackchain and all the information about the server economy is out there in the open for everyone to account for where the is, and where it goes (more on that later). 
 
-An on-chain wallet also means we can enable player-to-player transactions without the server being the middleman.
+Having an on chain wallet also means you can do player-to-player transactions without the server being the middleman.
 
-For now the transactions are a little slowe, there's a limit on how many we can do and sometimes you have to wait confirmation times to spend again, but we know this will change soon with the future Bitcoin innovations!
+The bad side is transactions are a little slow, there's a limit on how many we can do and sometimes you have to wait confirmation times to spend bits. There are a number of Bitcoin enhancements coming in the future that will make things better, and we are looking into it.
 
 
 Land Ownership is Paid
@@ -46,9 +46,7 @@ The BitQuest Market 2.0
 ----------------------
 In BitQuest, you can buy valuable stuff with Bitcoin, like food or the latest Elytra wings. Each comes at a different price, though. But the interesting part is what happens to the Bitcoin spent in items!
 
-All Market transactions go to a "Loot" wallet. Each time a monster is killed, a small number of calculations (and luck) might substract 200 bits from that wallet directly to yours, a small reward for your braveness. If you choose to spend that money again inside the Market, it will go back to loot wallet, rewarding another player.
-
-You might think everyone sends their hard earned loot outside the game, but a staggering 45% spends it back in the game market!
+All Market transactions go to a "Loot" wallet. Each time a monster is killed, a small number of calculations (and luck) might substract 200 bits from that wallet directly to yours, a small reward for your braveness. If you choose to spend that money again inside the Market, it will go back to the same loot wallet, rewarding another player.
 
 Open Source
 ------------------------------------
@@ -58,9 +56,9 @@ Assets bought inside video games, like weapons or land ownership should be store
 
 There is so much work to do and BitQuest is just a tiny fraction. This release would be impossible without the help of [Airiellis](https://twitter.com/shallonhackenb1), Burntone, [Xeyler](https://github.com/Xeyler), [juanj](https://github.com/juanj), [RagingMouser](https://github.com/RagingMouser) and everyone on the BitQuest slack team.
 
-Since 2.0 and from now on we are open source: [Github repo](https://github.com/bitquest/bitquest)
+And since 2.0 and from now on we are open source: [Github repo](https://github.com/bitquest/bitquest)
 
-Or if you want to help develop BitQuest even further, your donations are appreciated:
+But if you want to help develop BitQuest even further, your donations are appreciated:
 
 ![3A1hmUUqCUV7SdftvVpWc8jQ3xmGqBPGeZ](https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=bitcoin:3A1hmUUqCUV7SdftvVpWc8jQ3xmGqBPGeZ)
 3A1hmUUqCUV7SdftvVpWc8jQ3xmGqBPGeZ
