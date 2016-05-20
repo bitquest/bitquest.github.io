@@ -6,15 +6,15 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 May 2016 19:00:58 -0400</pubDate>
-    <lastBuildDate>Thu, 19 May 2016 19:00:58 -0400</lastBuildDate>
+    <pubDate>Thu, 19 May 2016 20:19:59 -0400</pubDate>
+    <lastBuildDate>Thu, 19 May 2016 20:19:59 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>BitQuest 2</title>
         <description>&lt;p&gt;Hi people,&lt;/p&gt;
 
-&lt;p&gt;I am very proud to announce that the new BitQuest, version 2.0 is finished. The goal of this release is to make the integration of Bitcoin into Minecraft simple enough to maintain it, open and hackable. I am sure this is far from perfect, but it’s excellent work by the BitQuest community and the BitQuest open source project.&lt;/p&gt;
+&lt;p&gt;The new BitQuest, version 2.0 is finished. The goal of this release is to make the integration of Bitcoin into Minecraft simple enough to maintain it, open and hackable. I am sure this is far from perfect, but it’s excellent work by the BitQuest community and the BitQuest open source project.&lt;/p&gt;
 
 &lt;p&gt;Let’s go ahead and tell you what’s new and what’s different!&lt;/p&gt;
 
@@ -57,7 +57,7 @@
 
 &lt;p&gt;Assets bought inside video games, like weapons or land ownership should be stored on the blockchain, and players must have freedom to sell or barter those assets inside or outside the system without restrictions or fees, just like any real world stuff you buy.&lt;/p&gt;
 
-&lt;p&gt;There is so much work to do and BitQuest is just a tiny fraction. This release would be impossible without the help of Airiellis, Burntone, &lt;a href=&quot;https://github.com/Xeyler&quot;&gt;Xeyler&lt;/a&gt;, &lt;a href=&quot;https://github.com/juanj&quot;&gt;juanj&lt;/a&gt;, &lt;a href=&quot;https://github.com/RagingMouser&quot;&gt;RagingMouser&lt;/a&gt; and everyone on the BitQuest slack team.&lt;/p&gt;
+&lt;p&gt;There is so much work to do and BitQuest is just a tiny fraction. This release would be impossible without the help of &lt;a href=&quot;https://twitter.com/shallonhackenb1&quot;&gt;Airiellis&lt;/a&gt;, Burntone, &lt;a href=&quot;https://github.com/Xeyler&quot;&gt;Xeyler&lt;/a&gt;, &lt;a href=&quot;https://github.com/juanj&quot;&gt;juanj&lt;/a&gt;, &lt;a href=&quot;https://github.com/RagingMouser&quot;&gt;RagingMouser&lt;/a&gt; and everyone on the BitQuest slack team.&lt;/p&gt;
 
 &lt;p&gt;Since 2.0 and from now on we are open source: &lt;a href=&quot;https://github.com/bitquest/bitquest&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
 
@@ -68,9 +68,9 @@
 
 &lt;p&gt;Thanks for playing!!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 21 Dec 2015 17:17:00 -0300</pubDate>
-        <link>http://yourdomain.com/2015/12/21/bitquest-2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/12/21/bitquest-2.html</guid>
+        <pubDate>Thu, 19 May 2016 16:17:00 -0400</pubDate>
+        <link>http://yourdomain.com/2016/05/19/bitquest-2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/05/19/bitquest-2.html</guid>
         
         
       </item>
