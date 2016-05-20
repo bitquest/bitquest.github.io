@@ -26,6 +26,8 @@ Having an on chain wallet also means you can do player-to-player transactions wi
 
 The bad side is transactions are a little slow, there's a limit on how many we can do and sometimes you have to wait confirmation times to spend bits. There are a number of Bitcoin enhancements coming in the future that will make things better, and we are looking into it.
 
+To handle all transactions, we use the excellent tools of our friends at [BlockCypher](http://www.blockcypher.com)
+
 New Markets and Loot
 ----------------------
 ![Buying diamond and Elytra](http://i.imgur.com/jmUsfeg.gif)

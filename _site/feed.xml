@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 May 2016 21:54:29 -0400</pubDate>
-    <lastBuildDate>Thu, 19 May 2016 21:54:29 -0400</lastBuildDate>
+    <pubDate>Thu, 19 May 2016 22:45:39 -0400</pubDate>
+    <lastBuildDate>Thu, 19 May 2016 22:45:39 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -30,6 +30,8 @@
 &lt;p&gt;Having an on chain wallet also means you can do player-to-player transactions without the server being the middleman.&lt;/p&gt;
 
 &lt;p&gt;The bad side is transactions are a little slow, there’s a limit on how many we can do and sometimes you have to wait confirmation times to spend bits. There are a number of Bitcoin enhancements coming in the future that will make things better, and we are looking into it.&lt;/p&gt;
+
+&lt;p&gt;To handle all transactions, we use the excellent tools of our friends at &lt;a href=&quot;http://www.blockcypher.com&quot;&gt;BlockCypher&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;new-markets-and-loot&quot;&gt;New Markets and Loot&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/jmUsfeg.gif&quot; alt=&quot;Buying diamond and Elytra&quot; /&gt;&lt;/p&gt;
