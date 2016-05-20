@@ -246,12 +246,19 @@ section.main {
       .site-header .navbar-txt .txt {
         font-size: 1.6rem; } }
   .site-header .btn {
-    margin: 5rem 0;
+    margin: 0 0 3rem;
     border-radius: .1rem;
     padding: 1rem 3rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+    .site-header .btn.btn-float {
+      position: absolute;
+      top: 1rem;
+      left: 50%;
+      margin-left: -100px;
+      width: 180px;
+      padding: .25rem 0; }
   .site-header .connectandplay {
     margin: 5rem auto;
     border-radius: .25rem;
@@ -569,6 +576,9 @@ ul li {
     margin-top: -30px;
     margin-bottom: 20px;
     display: block; }
+
+.donate {
+  padding: 3rem 0; }
 
 .more-links {
   list-style: none;
