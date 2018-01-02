@@ -4,11 +4,11 @@
     <title>The server that runs on Bitcoin!</title>
     <description>Bitquest is a Survival style Minecraft server with a Bitcoin-denominated economy: Players can buy, sell and trade items using BTC micropayments with a fully funcional Bitcoin wallet you can send money to/from. To start playing, Connect to the following address using the PC Version of Minecraft: play.bitquest.co
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 May 2016 11:18:46 -0300</pubDate>
-    <lastBuildDate>Fri, 20 May 2016 11:18:46 -0300</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 02 Jan 2018 17:04:27 -0300</pubDate>
+    <lastBuildDate>Tue, 02 Jan 2018 17:04:27 -0300</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>BitQuest 2</title>
@@ -48,9 +48,8 @@
 
 &lt;p&gt;Since the transactions are now on-chain, you can look into the world wallet and explore the raw operations of the game economy:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
-https://blockchain.info/address/1BiWdDaHChaKTcNXWs3nxPRcxb6CHM5h2u
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://blockchain.info/address/1BiWdDaHChaKTcNXWs3nxPRcxb6CHM5h2u
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -89,9 +88,9 @@ https://blockchain.info/address/1BiWdDaHChaKTcNXWs3nxPRcxb6CHM5h2u
 
 &lt;p&gt;Thanks for playing!!&lt;/p&gt;
 </description>
-        <pubDate>Thu, 19 May 2016 17:17:00 -0300</pubDate>
-        <link>http://yourdomain.com/2016/05/19/bitquest-2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/05/19/bitquest-2.html</guid>
+        <pubDate>Thu, 19 May 2016 16:17:00 -0400</pubDate>
+        <link>http://localhost:4000/2016/05/19/bitquest-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/05/19/bitquest-2.html</guid>
         
         
       </item>
@@ -112,8 +111,8 @@ https://blockchain.info/address/1BiWdDaHChaKTcNXWs3nxPRcxb6CHM5h2u
 Merry Christmas!!&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Dec 2015 17:17:00 -0300</pubDate>
-        <link>http://yourdomain.com/2015/12/21/welcome-to-the-bitquest-2.0.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/12/21/welcome-to-the-bitquest-2.0.html</guid>
+        <link>http://localhost:4000/2015/12/21/welcome-to-the-bitquest-2.0.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/21/welcome-to-the-bitquest-2.0.html</guid>
         
         
       </item>
@@ -143,8 +142,8 @@ Merry Christmas!!&lt;/p&gt;
 &lt;p&gt;Thanks for playing!&lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Dec 2015 17:17:00 -0300</pubDate>
-        <link>http://yourdomain.com/2015/12/07/starting-bitquest-2.0.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/12/07/starting-bitquest-2.0.html</guid>
+        <link>http://localhost:4000/2015/12/07/starting-bitquest-2.0.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/07/starting-bitquest-2.0.html</guid>
         
         
       </item>

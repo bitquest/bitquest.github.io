@@ -22,7 +22,3 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - octopress-autoprefixer
-  

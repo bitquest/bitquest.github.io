@@ -16,10 +16,10 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  -webkit-font-kerning: normal;
-          font-kerning: normal;
+  font-kerning: normal;
   min-width: 320px; }
 
 /**
@@ -131,6 +131,7 @@ pre {
  * Wrapper
  */
 .wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
@@ -138,6 +139,7 @@ pre {
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
+      max-width: -webkit-calc(800px - (30px));
       max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
@@ -187,18 +189,9 @@ section.main {
   padding: 5rem 0 0 !important; }
 
 .site-header .navbar-nav, .site-header.simple-header.navbar {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: space-between;
+  align-items: center; }
 
 /**
  * Site header
@@ -208,8 +201,7 @@ section.main {
   image-rendering: -webkit-crisp-edges;
   image-rendering: -moz-crisp-edges;
   image-rendering: -o-crisp-edges;
-  -ms-interpolation-mode: nearest-neighbor;
-      image-rendering: pixelated;
+  image-rendering: pixelated;
   background: url("/images/frame.png"), url("http://map.bitquest.co/shot.jpg");
   background-size: cover, cover;
   background-position: center, top;
@@ -294,10 +286,7 @@ section.main {
     text-align: center; }
     .site-header .navbar-nav .nav-item {
       margin: 0 1px;
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 1 auto;
-          -ms-flex: 0 1 auto;
-              flex: 0 1 auto;
+      flex: 0 1 auto;
       width: 320px;
       font-size: 14px; }
       .site-header .navbar-nav .nav-item .nav-link {
@@ -317,9 +306,7 @@ section.main {
       .site-header.simple-header.navbar {
         display: block; }
         .site-header.simple-header.navbar > [class*="navbar"] {
-          -webkit-flex-wrap: nowrap;
-              -ms-flex-wrap: nowrap;
-                  flex-wrap: nowrap;
+          flex-wrap: nowrap;
           width: 100%; } }
   .site-header.simple-header .navbar-brand {
     width: 30%;
@@ -455,24 +442,30 @@ ul li {
   padding-left: 15px; }
 
 .footer-col-1 {
+  width: -webkit-calc(35% - (30px / 2));
   width: calc(35% - (30px / 2)); }
 
 .footer-col-2 {
+  width: -webkit-calc(20% - (30px / 2));
   width: calc(20% - (30px / 2)); }
 
 .footer-col-3 {
+  width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {
+    width: -webkit-calc(50% - (30px / 2));
     width: calc(50% - (30px / 2)); }
 
   .footer-col-3 {
+    width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
+    width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
 /**
  * Page content
@@ -599,18 +592,9 @@ ul li {
       .newsletter-box .cta {
         text-align: left; } }
   .newsletter-box form {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     background: rgba(255, 255, 255, 0.95);
     padding: 3px 8px; }
     .newsletter-box form .form-group {
@@ -661,18 +645,9 @@ ul li {
       width: 60px;
       height: 60px;
       float: left;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center;
+      justify-content: center;
+      align-items: center;
       background: url(/images/step-bullet.svg) no-repeat center;
       background-size: cover;
       margin-right: 1rem;
