@@ -3,8 +3,7 @@ title: "Clans"
 category: basics
 
 ---
-Commands
-===========
+
 
 Create a new clan
 ----------------
