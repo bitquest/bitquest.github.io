@@ -9,19 +9,16 @@ author: "explodi"
 
 Hi fellow BitQuesters!!
 
-Dogecoin is a notable cryptocurrency. It's a clone of the Bitcoin network, which means it's secure and reliable, and also supported by an active community.
-It started as an experiment but time has demonstrated the currency of the meme dog can be used for everyday transactions and capable of reaching a billion dollar market cap.
+Dogecoin is a notable cryptocurrency. It's a clone of an old version the Bitcoin network, with one difference: it inflates at a rapid pace with no limit.
 
+Since Bitcoin entered the mainstream and became less accesible, players have asking us to open alternative servers in other cryptocurrencies, so we decided to experiment with Dogecoin.
 
-Since Bitcoin entered the mainstream and became less accesible, players of BitQuest have asked us to open alternative servers in other cryptocurrencies. Dogecoin is relatively cheap and very convenient for microtransactions, so we decided it's time to support it.
+Please note this server is considered "alpha testing" and we recommend you don't use it to store large amount of coins.
 
-
-We are happy to tell you that finally after many improvements to the BitQuest code, it's finally compatible with Dogecoin and you can connect to our brand new doge server in:
+After a small refaction of the BitQuest code, it's finally compatible with Dogecoin and you can connect to our brand new doge server in:
 
 `doge.bitquest.co`
 
 *(Using Minecraft: Java Edition 1.12)*
 
-About the Bitcoin server... Worry not! We are not switching to altcoins or phasing out the original classic server any time soon.
-
-And since Dogecoin and Bitcoin are the same apis, both of the servers will receive updates regularly.
+About the Bitcoin server... Worry not! There's no plan to discontinue or replace the world of BitQuest, and both will be receiving the same updates.
