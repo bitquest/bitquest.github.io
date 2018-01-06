@@ -62,11 +62,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
-
-
-
-
 /**
  * Blockquotes
  */
@@ -99,8 +94,28 @@ pre {
 
 }
 
-
-
+/**
+ * Site header
+ */
+ header {
+    background:url('/images/frame.png'), url('http://map.bitquest.co/shot.jpg');
+    background-size:cover, cover;
+    background-position:center, top;
+    background-attachment: fixed;
+    color:white;
+    padding:2rem 0;
+    text-align: center;
+   
+}
+header h1 {
+    text-shadow: 2px 2px black;
+}
+/**
+ * Site footer
+ */
+footer a {
+    color:white;
+}
 /**
  * Wrapper
  */
@@ -128,29 +143,8 @@ section.main {
     padding:5rem 0 0 !important;
 }
 
-/**
- * Site header
- */
-.site-header {
-    background:url('/images/frame.png'), url('http://map.bitquest.co/shot.jpg');
-    background-size:cover, cover;
-    background-position:center, top;
-    background-attachment: fixed;
-    color:white;
-    padding:2rem 0;
-    text-align: center;
-   
-}
-.site-header h1 {
-    text-shadow: 2px 2px black;
-}
 
-.features {
-    text-align:center;
-    font-weight:300;
-    line-height:1.3;
-    padding:4rem 0 3rem;
-}
+
 
 .site-nav {
     float: right;

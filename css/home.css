@@ -8,3 +8,10 @@
     padding:32px;
     max-width: 600px;
 }
+#home-features {
+    margin-top:64px;
+    text-align: center;
+}
+.home-feature {
+    padding:64px;
+}
