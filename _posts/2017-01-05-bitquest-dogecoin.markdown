@@ -21,4 +21,4 @@ After a small refaction of the BitQuest code, it's finally compatible with Dogec
 
 *(Using Minecraft: Java Edition 1.12)*
 
-About the Bitcoin server... Worry not! There's no plan to discontinue or replace the world of BitQuest, and both will be receiving the same updates.
+About the Bitcoin server... Worry not! There's no plan to discontinue or replace the world of BitQuest, and both will be receiving the regular updates.
