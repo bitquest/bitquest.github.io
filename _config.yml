@@ -22,3 +22,9 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+      type: "wiki"
+    values:
+      layout: post
