@@ -212,13 +212,7 @@ section.main {
 
 }
 
-.qr-code-container {
-    width:100%;
-    max-width:360px;
-    margin:1rem auto;
-    border:1px solid #DDD;
-    text-align: center;
-}
+
 
 .donate {
     padding:3rem 0;
