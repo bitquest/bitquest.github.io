@@ -1,17 +1,12 @@
-/**
- * Reset some basic elements
- */
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, figure {
     margin: 0;
     padding: 0;
 }
 
-/**
- * Basic styling
- */
-body {
+ body {
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -23,6 +18,18 @@ body {
 
 
 }
+ul {
+    margin-left:-16px;
+}
+
+
+ h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top:32px;
+}
+
+
 
 hr {
     margin-top: 52px;
@@ -52,15 +59,6 @@ figure > img {
     display: block;
 }
 
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    font-family: 'Roboto Condensed', sans-serif;
-
-}
 
 /**
  * Blockquotes
