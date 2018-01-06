@@ -19,10 +19,10 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
     min-width:320px;
+    font-family: 'Roboto Slab', serif;
+
+
 }
-
-
-
 
 hr {
     margin-top: 52px;
@@ -53,14 +53,12 @@ figure > img {
 }
 
 
-
-
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
 
 }
 
@@ -134,14 +132,17 @@ section.main {
  * Site header
  */
 .site-header {
-
     background:url('/images/frame.png'), url('http://map.bitquest.co/shot.jpg');
     background-size:cover, cover;
     background-position:center, top;
     background-attachment: fixed;
     color:white;
     padding:2rem 0;
+    text-align: center;
    
+}
+.site-header h1 {
+    text-shadow: 2px 2px black;
 }
 
 .features {
