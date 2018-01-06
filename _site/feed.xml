@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Jan 2018 01:16:12 -0300</pubDate>
-    <lastBuildDate>Sat, 06 Jan 2018 01:16:12 -0300</lastBuildDate>
+    <pubDate>Sat, 06 Jan 2018 01:16:52 -0300</pubDate>
+    <lastBuildDate>Sat, 06 Jan 2018 01:16:52 -0300</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -16,20 +16,19 @@
 
 &lt;p&gt;Hi fellow BitQuesters!!&lt;/p&gt;
 
-&lt;p&gt;Dogecoin is a notable cryptocurrency. It’s a clone of the Bitcoin network, which means it’s secure and reliable, and also supported by an active community.
-It started as an experiment but time has demonstrated the currency of the meme dog can be used for everyday transactions and capable of reaching a billion dollar market cap.&lt;/p&gt;
+&lt;p&gt;Dogecoin is a notable cryptocurrency. It’s a clone of an old version the Bitcoin network, with one difference: it inflates at a rapid pace with no limit.&lt;/p&gt;
 
-&lt;p&gt;Since Bitcoin entered the mainstream and became very expensive, players of BitQuest have asked us to open alternative servers in other cryptocurrencies. Dogecoin is relatively cheap and very convenient for microtransactions, so we decided it’s time to support it.&lt;/p&gt;
+&lt;p&gt;Since Bitcoin entered the mainstream and became less accesible, players have asking us to open alternative servers in other cryptocurrencies, so we decided to experiment with Dogecoin.&lt;/p&gt;
 
-&lt;p&gt;We are happy to tell you that finally after many improvements to the BitQuest code, it’s finally compatible with Dogecoin and you can connect to our brand new doge server in:&lt;/p&gt;
+&lt;p&gt;Please note this server is considered “alpha testing” and we recommend you don’t use it to store large amount of coins.&lt;/p&gt;
+
+&lt;p&gt;After a small refaction of the BitQuest code, it’s finally compatible with Dogecoin and you can connect to our brand new doge server in:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;doge.bitquest.co&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;(Using Minecraft: Java Edition 1.12)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;About the Bitcoin server… Worry not! We are not switching to altcoins or phasing out the original classic server any time soon.&lt;/p&gt;
-
-&lt;p&gt;And since Dogecoin and Bitcoin are the same apis, both of the servers will receive updates regularly.&lt;/p&gt;
+&lt;p&gt;About the Bitcoin server… Worry not! There’s no plan to discontinue or replace the world of BitQuest, and both will be receiving the same updates.&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Jan 2017 19:30:00 -0300</pubDate>
         <link>http://localhost:4000/2017/01/05/bitquest-dogecoin.html</link>
