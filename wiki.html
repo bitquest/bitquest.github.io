@@ -14,13 +14,9 @@ excerpt: All About BitQuest
 <p>Keep in mind, BitQuest doesn't filter it's chat, so topics and language can be explicit. BitQuest isn't considered a family-friendly Minecraft server. (at least for now)</p>
 <h2>BitQuest Mechanics</h2>
 <ul>
-<li><a class="internal present" href="/bitquest/bitquest/wiki/Your-In-Game-Bitcoin-Wallet">Your In-Game Bitcoin Wallet</a></li>
-<li><a class="internal present" href="/bitquest/bitquest/wiki/Claiming-Land">Claiming Land</a></li>
-<li><a class="internal present" href="/bitquest/bitquest/wiki/The-Market">The Market</a></li>
-<li><a class="internal present" href="/bitquest/bitquest/wiki/Monsters">Monsters</a></li>
-<li><a class="internal present" href="/bitquest/bitquest/wiki/Levels-and-Experience">Levels and Experience</a></li>
-<li><a class="internal present" href="/bitquest/bitquest/wiki/Loot">Loot</a></li>
-<li><a class="internal present" href="/bitquest/bitquest/wiki/Claim-Transfer-and-Name-Change">Claim Transfer and Name Change</a></li>
+        {% for article in site.wiki %}
+        <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+        {% endfor %}
 </ul>
 <h2>
 BitQuest Development
