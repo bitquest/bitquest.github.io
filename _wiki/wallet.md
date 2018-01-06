@@ -1,11 +1,11 @@
 ---
-title: "Your In Game Bitcoin Wallet"
+title: "Your In Game Wallet"
 category: basics
 
 ---
-Every BitQuest wallet is an [[HD Bitcoin Wallet]] address. You can see your balance by checking the in-game HUD, or by using the /wallet command.
+Every BitQuest wallet is a Cryptocurrency address. You can see your balance by checking the in-game HUD, or by using the /wallet command.
 
-You can deposit Bitcoin in the address shown when you join the server, and it will, after several minutes of processing, show the deposited Bitcoin in your balance. You can spend that money buying items at [[the market|The Market]], [[ claiming land|Claiming Land]], or making a transfer.
+In the Bitcoin server, you can deposit BTC in the address shown when you join the server, and it will, after several minutes of processing, show the deposited Bitcoin in your balance. You can spend that money buying items at [the market](/wiki/market.html), [claiming land](/wiki/land.html), or making a transfer.
 
 In BitQuest, Bitcoin is measured in Bits, that's 1/1,000,000th of a Bitcoin (1BTC)
 
@@ -15,7 +15,9 @@ Usage: /transfer \<amount\> \<address\>
 
 This command will transfer the specified amount from your wallet to the specified wallet address.
 
-Note that transferring Bitcoin to a wallet that isn't managed by BitQuest will result in a miner's fee. Miner's fees can vary, but they are typically a couple hundred bits. To keep players from abusing this command by transferring amounts that are too small, the minimum amount of bits a player can transfer to an external wallet is 2000 bits.
+Note that transferring Bitcoin to a wallet that isn't managed by BitQuest will result in a miner's fee. Miner's fees can vary, but they are typically a couple hundred bits. To keep players from abusing this command by transferring amounts that are too small, the minimum amount of bits a player can transfer to an external wallet is 2000 bits. 
+
+There are cases where fees are abnormally high and after fees, the account balance will be negative.
 
 Example:
 ````

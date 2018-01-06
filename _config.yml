@@ -30,4 +30,4 @@ defaults:
       path: ""
       type: "wiki"
     values:
-      layout: post
+      layout: article

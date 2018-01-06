@@ -1,5 +1,5 @@
 ---
-title: "Claim Transfer and Name Change"
+title: "Clans"
 category: basics
 
 ---
