@@ -11,11 +11,10 @@
 
 .connectandplaydc {
     margin: 30px 30px 15px 30px;
-    background-color: #a59123;
+    background-color: #ec9f00;
     padding:15px;
     max-width: 500px;
 }
-
 
 
 #home-features {
@@ -25,4 +24,5 @@
 .home-feature {
     padding:64px;
 }
+
 
