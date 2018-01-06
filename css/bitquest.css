@@ -46,7 +46,9 @@ hr {
     box-sizing: content-box;
     height: 0;
 }
-
+p {
+    margin-bottom: 16px;
+}
 /**
  * Images
  */
