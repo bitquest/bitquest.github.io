@@ -22,6 +22,9 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
+collections:
+  wiki:
+    output: true
 defaults:
   - scope:
       path: ""

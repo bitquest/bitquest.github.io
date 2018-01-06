@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-	
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +10,7 @@
 ">
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/bitquest.css">
   
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="The server that runs on Bitcoin!" href="http://localhost:4000/feed.xml">
@@ -56,151 +55,95 @@
 </script>
 </head>
 
-
 <body>
-	
 	<header class="site-header landing-header">
-	<div class="container">
+    <div class="container">
+  
+      <a class="navbar-brand" href="/">
+        <img src="/images/bitquest-logo.png" alt="The server that runs on Bitcoin!">
+      </a>
+              
+      <div class="navbar-txt">
+        <h1 class="txt">Welcome to the first <strong>Minecraft</strong> Server with a <strong>Bitcoin</strong> denominated monetary system.</h1>
+        <div class="connectandplay">
+          <div class="box">Connect to <span>play.bitquest.co</span></div>
+          <span class="info">Using Minecraft 1.12.2 for PC, Mac or Linux</span>
+        </div>
+      </div>			
+    </div>
+</header>
+  
+<div class="features">
+  <div class="text-center">
+    <h1>Bitquest Features</h1>
+  </div>
+  <div class="container">
+    <div class="feat col-md-4">
+      <img class="img-responsive img-circle feat-image" src="images/bank.jpg">
+      <div class="feat-desc">
+        <h2 class="feat-title">Bits</h2>
+        <p>The currency on this server are the Bits. <strong>A bit is a fraction of a Bitcoin (1/1000000)</strong> that you can obtain by killing monsters, trading with users or transfering from an outside wallet. All of it is stored on a <strong>standard Bitcoin wallet on the Blockchain</strong>.</p>
+      </div>
+    </div>
+    <div class="feat col-md-4">
+      <img class="img-responsive img-circle feat-image" src="images/level.jpg">
+      <div class="feat-desc">
+        <h2 class="feat-title">Level System</h2>
+        <p>The level system is different that in a vanilla server. <strong>You gather experience from killing mobs and is never lost</strong>. Your XP allows you to become stronger and gain extra health. Mobs also have levels and special abilities specially in dungeons and dangerous areas.</p>
+      </div>
+    </div>
+    <div class="feat col-md-4">
+      <img class="img-responsive img-circle feat-image" src="images/fun.jpg">
+      <div class="feat-desc">
+        <h2 class="feat-title">Fun</h2>
+        <p>The server is made having the concept of fun in it. <strong>Bots and AFK farming is strictly banned</strong>, and there are hidden bosses and dungeons.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-		<a class="navbar-brand" href="/">
-			<img src="/images/bitquest-logo.png" alt="The server that runs on Bitcoin!">
-		</a>
-						
-		<div class="navbar-txt">
-			<h1 class="txt">Welcome to the first <strong>Minecraft</strong> Server with a <strong>Bitcoin</strong> denominated monetary system.</h1>
-			<div class="connectandplay">
-				<!-- <h5 class="cta">Connect to the BitQuest Server</h5> -->
-				<div class="box">Connect to <span>play.bitquest.co</span></div>
-				<span class="info">Using Minecraft 1.12.2 for PC, Mac or Linux</span>
-			</div>
-		</div>			
-	</div>
-<!-- 	<a href="#donate" class="btn btn-primary btn-float"><strong>Support The Project</strong></a>
- --></header>
-
-	
-	<!-- <section class="playnow" id="howtoplay">
-	<div class="container">
-		<div class="text-center">
-			<h1>Connect to the BitQuest Server</h1>
-		</div>
-		<div class="row step step-1">
-			<div class="playnow-title">
-				<div class="step-bullet">1</div>
-				<h3><strong>Get Minecraft 1.9</strong> Create an account and install the latest version</h3>
-			</div>
-			<p>Note: currently we support only the PC/Mac/linux Minecraft</p>
-		</div>
-
-		<div class="row step step-2">
-			<div class="playnow-title">
-				<div class="step-bullet">2</div>
-				<h3><strong>Connect to a BitQuest Server</strong>
-				</h3>
-			</div>
-			
-			<div class="col-md-12 server-info">
-				<div class="col-sm-4">
-					<h5 class="playnow-server-title">Classic server</h5>
-			      	<div class="playnow-server">
-			      		play.bitquest.co
-			      	</div>
-		      	</div>
-		      	<div class="col-sm-4">
-			      	<h5 class="playnow-server-title">Beta server</h5>
-			      	<div class="playnow-server">
-			      		beta.bitquest.co
-			      	</div>
-				</div>
-			</div>
-			
-		</div>
-
-		<div class="row step step-3">
-			<div class="playnow-title">
-				<div class="step-bullet">3</div>
-				<h3><strong>Read the Documentation</strong></h3>
-			</div>
-			<p><a href="https://github.com/bitquest/bitquest/wiki">The BitQuest wiki</a> is a great place to learn more about the server, including <a href="https://github.com/bitquest/bitquest/wiki/Loot">earning bitcoin</a>, <a href="https://github.com/bitquest/bitquest/wiki/Owning-Land">how to claim land</a>, and everything about the <a href="https://github.com/bitquest/bitquest/wiki/The-BitQuest-Bitcoin-Wallet">Bitcoin wallet</a>.</p>
-		</div>
-
-		
-	        
-	</div>
-</section> -->
-	
-	<div class="features">
-		<div class="text-center">
-			<h1>Bitquest Features</h1>
-		</div>
-		<div class="container">
-			<div class="feat col-md-4">
-				<img class="img-responsive img-circle feat-image" src="images/bank.jpg">
-				<div class="feat-desc">
-					<h2 class="feat-title">Bits</h2>
-					<p>The currency on this server are the Bits. <strong>A bit is a fraction of a Bitcoin (1/1000000)</strong> that you can obtain by killing monsters, trading with users or transfering from an outside wallet. All of it is stored on a <strong>standard Bitcoin wallet on the Blockchain</strong>.</p>
-				</div>
-		 	</div>
-		 	<div class="feat col-md-4">
-				<img class="img-responsive img-circle feat-image" src="images/level.jpg">
-				<div class="feat-desc">
-					<h2 class="feat-title">Level System</h2>
-					<p>The level system is different that in a vanilla server. <strong>You gather experience from killing mobs and is never lost</strong>. Your XP allows you to become stronger and gain extra health. Mobs also have levels and special abilities specially in dungeons and dangerous areas.</p>
-				</div>
-		 	</div>
-		 	<div class="feat col-md-4">
-				<img class="img-responsive img-circle feat-image" src="images/fun.jpg">
-				<div class="feat-desc">
-					<h2 class="feat-title">Fun</h2>
-					<p>The server is made having the concept of fun in it. <strong>Bots and AFK farming is strictly banned</strong>, and there are hidden bosses and dungeons.</p>
-				</div>
-		 	</div>
-		</div>
- 	</div>
-
-    <section class="blog">
-    	<div class="container">
-    		
-    		<section class="latest-posts">
-  <h4>Latest Posts</h4>
-  <ul class="post-list col-md-12">
+<section class="blog">
+  <div class="container">
     
-      <li class="post col-md-6">
-        <span class="post-meta">Jan 5, 2017</span>
-        <h3 class="post-title">
-          <a class="post-link" href="/2017/01/05/bitquest-dogecoin.html">BitQuest supports Dogecoin. Such currency, very server!</a>
-        </h3>
-        <p>Hi fellow BitQuesters!! Dogecoin is a notable cryptocurrency. It’s a clone of the Bitcoin network, which means it’s secure and reliable, and also supported by an active community. It started as an experiment...</p>
-        <p><a href="/2017/01/05/bitquest-dogecoin.html">&raquo; View more</a></p>
-      </li>
     
-      <li class="post col-md-6">
-        <span class="post-meta">May 19, 2016</span>
-        <h3 class="post-title">
-          <a class="post-link" href="/2016/05/19/bitquest-2.html">BitQuest 2</a>
-        </h3>
-        <p>The new BitQuest, version 2.0 is finished. The goal of this release was to make the integration of Bitcoin into Minecraft simple, open, and hackable. I am sure this is far from perfect,...</p>
-        <p><a href="/2016/05/19/bitquest-2.html">&raquo; View more</a></p>
-      </li>
+    <section class="latest-posts">
+      <h4>Latest Posts</h4>
+      <ul class="post-list col-md-12">
+        
+        <li class="post col-md-6">
+          <span class="post-meta">Jan 5, 2017</span>
+          <h3 class="post-title">
+            <a class="post-link" href="/2017/01/05/bitquest-dogecoin.html">BitQuest supports Dogecoin. Such currency, very server!</a>
+          </h3>
+          <p>Hi fellow BitQuesters!! Dogecoin is a notable cryptocurrency. It’s a clone of the Bitcoin network, which means it’s secure and reliable, and also supported by an active community. It started as an experiment...</p>
+          <p><a href="/2017/01/05/bitquest-dogecoin.html">&raquo; View more</a></p>
+        </li>
+        
+        <li class="post col-md-6">
+          <span class="post-meta">May 19, 2016</span>
+          <h3 class="post-title">
+            <a class="post-link" href="/2016/05/19/bitquest-2.html">BitQuest 2</a>
+          </h3>
+          <p>The new BitQuest, version 2.0 is finished. The goal of this release was to make the integration of Bitcoin into Minecraft simple, open, and hackable. I am sure this is far from perfect,...</p>
+          <p><a href="/2016/05/19/bitquest-2.html">&raquo; View more</a></p>
+        </li>
+        
+      </ul>
+      <div class="row text-center">
+        <a href="/blog" class="btn btn-info">&raquo; Bitquest development blog</a>
+      </div>
+    </section>
     
-  </ul>
-  <div class="row text-center">
-    <a href="/blog" class="btn btn-info">&raquo; Bitquest development blog</a>
   </div>
 </section>
 
-    			
-    	</div>
-    </section>
-
-    <section id="donate" class="donate text-center">
-    	<h1>Support BitQuest, your donations are appreciated!</h1>
-    	<div class="qr-code-container">
-			<img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=bitcoin:3J2sBkLXqHDJvHG22DMBRdNhceevooHaQi" alt="3A1hmUUqCUV7SdftvVpWc8jQ3xmGqBPGeZ">
-			<span>3J2sBkLXqHDJvHG22DMBRdNhceevooHaQi</span>
-		</div>
-    </section>
-
+<section id="donate" class="donate text-center">
+  <h1>Support BitQuest, your donations are appreciated!</h1>
+  <div class="qr-code-container">
+    <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=bitcoin:3J2sBkLXqHDJvHG22DMBRdNhceevooHaQi" alt="3A1hmUUqCUV7SdftvVpWc8jQ3xmGqBPGeZ">
+    <span>3J2sBkLXqHDJvHG22DMBRdNhceevooHaQi</span>
+  </div>
+</section>
 
 	<footer class="site-footer ground">
   <div class="container">
@@ -214,7 +157,7 @@
                  <a href="http://map.bitquest.co" class="nav-link" target="_blank">World map</a>
               </li>
               <li class="nav-item">
-                 <a href="https://github.com/bitquest/bitquest/wiki" class="nav-link" target="_blank">Official wiki</a>
+                 <a href="/wiki.html" class="nav-link">Official wiki</a>
               </li>
 
            </ul>
@@ -291,14 +234,8 @@
 
   </div>
 </footer>
-
-
-	<!-- JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+		<!-- JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 </body>
-
 </html>
-<script type="text/javascript">
-	mixpanel.track("Pageview");
-</script>
