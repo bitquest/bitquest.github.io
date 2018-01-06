@@ -13,7 +13,7 @@ Dogecoin is a notable cryptocurrency. It's a clone of the Bitcoin network, which
 It started as an experiment but time has demonstrated the currency of the meme dog can be used for everyday transactions and capable of reaching a billion dollar market cap.
 
 
-Since Bitcoin entered the mainstream and became very expensive, players of BitQuest have asked us to open alternative servers in other cryptocurrencies. Dogecoin is relatively cheap and very convenient for microtransactions, so we decided it's time to support it.
+Since Bitcoin entered the mainstream and became less accesible, players of BitQuest have asked us to open alternative servers in other cryptocurrencies. Dogecoin is relatively cheap and very convenient for microtransactions, so we decided it's time to support it.
 
 
 We are happy to tell you that finally after many improvements to the BitQuest code, it's finally compatible with Dogecoin and you can connect to our brand new doge server in:
