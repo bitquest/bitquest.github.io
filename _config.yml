@@ -22,7 +22,12 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - octopress-autoprefixer
-  
+collections:
+  wiki:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "wiki"
+    values:
+      layout: article

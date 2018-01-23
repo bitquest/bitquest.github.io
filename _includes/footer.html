@@ -1,4 +1,27 @@
+<div class="container">
+  <div class="row">
+      <section id="donate" class="donate text-center">
+          <h1>Support BitQuest, your donations are appreciated!</h1>
+          <div class="container">
+              <div class="row" id="support-row">
+                  <div class="col-md-6" id="qr-btc-container">
+                      <h3>Bitcoin address</h3>
+                      <img src="/images/bitquest-donate-qr.jpg" alt="3A1hmUUqCUV7SdftvVpWc8jQ3xmGqBPGeZ">
+                      <span>3J2sBkLXqHDJvHG22DMBRdNhceevooHaQi</span>
+                  </div>
+                  <div class="col-md-6" id="qr-dgc-container">
+                      <h3>Dogecoin address</h3>
+                      <img src="/images/doge-qr-bitquest-donate.jpg" alt="DRzUDYwRVyfPufsgqjKoPJwPtugkBjmwat">
+                      <span>DRzUDYwRVyfPufsgqjKoPJwPtugkBjmwat</span>
+                  </div>
+          </div>
+          </div>
+        </section>
+  </div>
+</div>
+
 <footer class="site-footer ground">
+  
   <div class="container">
     <!-- <h2 class="footer-heading">More info</h2> -->
     <div class="row">
@@ -10,7 +33,7 @@
                  <a href="http://map.bitquest.co" class="nav-link" target="_blank">World map</a>
               </li>
               <li class="nav-item">
-                 <a href="https://github.com/bitquest/bitquest/wiki" class="nav-link" target="_blank">Official wiki</a>
+                 <a href="/wiki.html" class="nav-link">Official wiki</a>
               </li>
 
            </ul>
@@ -50,6 +73,11 @@
               <span class="username">{{ site.facebook_username }}</span></a>
           </li>
           {% endif %}
+          <li>
+            <a href="https://discord.gg/pknXcj2"><img src="/images/white-discord-svg.svg" style="width:20px; height:23px; margin-left:-2px">Discord</a>
+            
+
+          </li>
           
         </ul>
 
@@ -66,7 +94,7 @@
                  <i class="mdi mdi-email-outline"></i>
                  <input type="email" name="EMAIL" class="form-control required email" id="mce-email" placeholder="your@email.com">
               </div>
-              <button type="submit" class="btn btn-sm btn-primary"><i class="mdi mdi-send"></i></button>
+              <button type="submit" class="btn"><i class="mdi mdi-send"></i></button>
            </form>
         </div>
         
@@ -82,3 +110,6 @@
 
   </div>
 </footer>
+		<!-- JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
