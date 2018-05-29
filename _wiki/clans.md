@@ -7,6 +7,8 @@ category: basics
 
 Create a new clan
 ----------------
+As you may know, clans are groups of people with common interests. That's why on this server you can create clans with friends and play together. Check the commands below to understand how they work in BitQuest. 
+
 ```
 /clan new <your desired clan name>
 ```

@@ -3,9 +3,10 @@ title: "Your In Game Wallet"
 category: basics
 
 ---
-Every BitQuest wallet is a Cryptocurrency address. You can see your balance by checking the in-game HUD, or by using the ```/wallet``` command.
+Every BitQuest wallet is a Cryptocurrency address. 
+You can see your balance checking the in-game HUD ur using the command ```/wallet```.
 
-In the Bitcoin server, you can deposit BTC in the address shown when you join the server, and it will, after several minutes of processing, show the deposited Bitcoin in your balance. You can spend that money buying items at [the market](/wiki/market.html), [claiming land](/wiki/land.html), or making a transfer.
+In the Bitcoin server, you can deposit BTC in the address shown when you join the server, and it will, after several minutes of processing, show the deposited Bitcoin in your balance. You can spend that money [claiming land](/wiki/land.html), or sending money to other players.  
 
 In BitQuest, Bitcoin is measured in Bits, that's 1/1,000,000th of a Bitcoin (1BTC)
 

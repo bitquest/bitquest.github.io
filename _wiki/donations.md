@@ -6,6 +6,8 @@ category: basics
 
 /donate command
 ------------------
+Donations are very important to keep this server up. Please consider donate! Every amount matters.  
+
 ```
 /donate <amount> 
 ```
