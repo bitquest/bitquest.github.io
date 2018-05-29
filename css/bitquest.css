@@ -27,6 +27,14 @@ ul {
     margin-top:32px;
 }
 
+h2 {
+    margin-bottom:8px;
+}
+
+h1 {
+    margin-bottom:10px;
+}
+
 a {
     color: #f1a101;
 }
@@ -288,4 +296,20 @@ section.main {
 
 .latest-posts {
     padding-bottom:3rem;
+}
+
+#article-title {
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+#article-box {
+    margin-top:30px;
+    border:  rgba(0, 0, 0, 0.322);
+    border-style: solid;
+    border-width: 1px;
+}
+
+#article-box li {
+    line-height: 2em;
 }
