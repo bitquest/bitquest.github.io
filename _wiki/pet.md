@@ -3,11 +3,12 @@ title: "Adopt a pet"
 category: basics
 
 ---
+
+<img src="/images/selfie-pet.png" alt="Selfie pets">
+<br/>
+<br/>
 Now in both servers you can adopt a beautiful generic ocelot for 100 bits or 100 Doge.
 
-<code class="highlighter-rouge">
-/pet &lt;nameofyourpet&gt;
-</code>
 
 *Important*
 
@@ -28,3 +29,4 @@ Example:
 ````
 /pet snowball
 ````
+

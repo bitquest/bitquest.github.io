@@ -25,3 +25,7 @@ Anyway, this is a beta feature and is not finished yet, so expect your new frien
 We want to improve this feature in the next versions with ideas from the community. Please share your ideas through our channels ;D 
 
 Thank you for playing!
+<br/>
+<br/>
+<img src="/images/selfie-pet.png" alt="Selfie pets">
+
