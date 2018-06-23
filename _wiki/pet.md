@@ -4,7 +4,7 @@ category: basics
 
 ---
 
-<img src="/images/selfie-pet.png" alt="Selfie pets">
+<img src="/images/selfie-pet-1.png" alt="Selfie pets">
 <br/>
 <br/>
 Now in both servers you can adopt a beautiful generic ocelot for 100 bits or 100 Doge.
